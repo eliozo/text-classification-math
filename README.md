@@ -1,2 +1,3 @@
 # text-classification-math
-"Ievads dabiskās valodas apstrādē" kursa gala projekts teksta klasificēšanā matemātikas uzdevumiem
+## Elizabete Ozoliņa, eo20018, 3.kurss
+"Ievads dabiskās valodas apstrādē" kursa gala projekts "Matemātikas uzdevumu tēmas noteicējs"
