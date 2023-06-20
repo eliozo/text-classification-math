@@ -1,21 +1,24 @@
 from bs4 import BeautifulSoup
 import re
+from preprocess_text import *
 
 def normalize_string(topic, text):
+    # print(text)
     text = re.sub(r'\W+', ' ', text)
     text = re.sub(r'[0-9]', ' ', text)
     tokens = re.split(r' +', text)
     tokens = list(filter(None, tokens))
+    # tokens = preprocess_text(text)
     return (topic, tokens)
 
-def read_file(filename):
-    with open(filename, 'r') as file:
-        for line in file:
-            # Process each line here
-            (topic, tokens) = normalize_string(line)
-            topics.append(topic)
-            fragments.append(tokens)
-    return (fragments, topics)
+# def read_file(filename):
+#     with open(filename, 'r') as file:
+#         for line in file:
+#             # Process each line here
+#             (topic, tokens) = normalize_string(line)
+#             topics.append(topic)
+#             fragments.append(tokens)
+#     return (fragments, topics)
 
 def extract_fragments_from_html(html_filename):
     with open(html_filename, 'r', encoding='utf-8') as file:
@@ -47,15 +50,19 @@ def read_all_htmls():
     fragments = []
     topics = []
     for year in range(1998, 2022):
+        # print(year)
         section = 0
         filename = 'html/page_{}.html'.format(year)
         result_list = extract_fragments_from_html(filename)
-        print(len(result_list))
+        # print(len(result_list))
         for item in result_list:
             # print(get_topic(item[0]), end=', ')
             (topic, tokens) = normalize_string(get_topic(item[0], year), item[1]) # item[0] topic, item[1] body text
-            topics.append(topic)
-            fragments.append(tokens)
+            if topic != "Other":
+                topics.append(topic)
+                fragments.append(tokens)
+            # print(topic, end=', ')
+        # print()
     return (fragments, topics)
 
 section = 0
@@ -77,7 +84,12 @@ def get_topic(label, year):
                        2010:['Algebra', 'Combinatorics', 'Geometry', 'NumberTheory'],
                        2011:['Algebra', 'Combinatorics', 'Geometry', 'NumberTheory'],
                        }
-    if label[0] == "A":
+    if label == "":
+        return "Other"
+    pattern = r'^[ACGN]?\d+$'
+    if not bool(re.match(pattern, label)):
+        return "Other"
+    elif label[0] == "A":
         return "Algebra"
     elif label[0] == "C":
         return "Combinatorics"
@@ -85,6 +97,9 @@ def get_topic(label, year):
         return "Geometry"
     elif label[0] == "N":
         return "NumberTheory"
-    elif label[0] == "1":
+    elif label == "1":
         section += 1
     return topic_sequences[year][section-1]
+
+if __name__ == "__main__":
+    read_all_htmls()
