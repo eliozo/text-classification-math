@@ -11,6 +11,17 @@ def normalize_string(topic, text):
     # tokens = preprocess_text(text)
     return (topic, tokens)
 
+def clean_formulas(text):
+    img_pattern = r'<img[^>]*alt="([^"]*)"[^>]*>'
+    text = re.sub(img_pattern, r'\1', text)
+    text = re.sub(r'<span [^<>]+>', '', text)
+    text = re.sub(r'</span>', '', text)
+    text = re.sub(r'<div [^<>]+>', '', text)
+    text = re.sub(r'</div>', '', text)
+    # text = re.sub(r'<br/>', '', text)
+    # text = re.sub(r'\\n', '\n', text)
+    return text
+
 # def read_file(filename):
 #     with open(filename, 'r') as file:
 #         for line in file:
@@ -37,13 +48,36 @@ def extract_fragments_from_html(html_filename):
 
     label_elements = soup.find_all('div', class_='cmty-view-post-item-label')
     text_elements = soup.find_all('div', class_='cmty-view-post-item-text')
+    print(text_elements)
+    # print(label_elements)
 
     for label_elem, text_elem in zip(label_elements, text_elements):
         label = label_elem.text.strip()
         text = text_elem.text.strip()
         fragments.append((label, text))
 
+    # print(fragments)
     return fragments
+
+def extract_markdown_from_html(html_filename):
+    with open(html_filename, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+    fragments = []
+
+    label_elements = soup.find_all('div', class_='cmty-view-post-item-label')
+    text_elements = soup.find_all('div', class_='cmty-view-post-item-text')
+
+    for label_elem, text_elem in zip(label_elements, text_elements):
+        label = label_elem.text.strip()
+        # text = text_elem.text.strip()
+        text = str(text_elem)
+        text = clean_formulas(text)
+        fragments.append((label, text))
+    print(fragments)
+
+    return fragments 
 
 def read_all_htmls():
     global section
@@ -53,10 +87,11 @@ def read_all_htmls():
         # print(year)
         section = 0
         filename = 'html/page_{}.html'.format(year)
-        result_list = extract_fragments_from_html(filename)
+        result_list = extract_markdown_from_html(filename)
         # print(len(result_list))
         for item in result_list:
             # print(get_topic(item[0]), end=', ')
+            # print(item)
             (topic, tokens) = normalize_string(get_topic(item[0], year), item[1]) # item[0] topic, item[1] body text
             if topic != "Other":
                 topics.append(topic)
@@ -102,4 +137,8 @@ def get_topic(label, year):
     return topic_sequences[year][section-1]
 
 if __name__ == "__main__":
-    read_all_htmls()
+    (fragments, topics) = read_all_htmls()
+    # for fragment in fragments:
+    #     print(fragment)
+    # for topic in topics:
+    #     print(topic)
