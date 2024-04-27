@@ -2,9 +2,18 @@ from selenium import webdriver
 import time
 
 # Set the path to the WebDriver executable (e.g., chromedriver)
+<<<<<<< HEAD
 # webdriver_path = 'C:\\Tools\\geckodriver-v0.34.0-win32\\geckodriver.exe'
 
 # Create a new instance of the Chrome driver
+=======
+webdriver_path = 'C:\\Users\\eozolina\\Tools\\firefox_webdriver\\geckodriver.exe'
+
+# Create a new instance of the Chrome driver
+# driver = webdriver.Chrome(webdriver_path)
+
+# For Firefox
+>>>>>>> 6cb11fc507033c6c3170c9c467249baa3cc81e42
 driver = webdriver.Firefox()
 
 # Navigate to the URL
