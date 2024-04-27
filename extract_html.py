@@ -28,13 +28,6 @@ def extract_fragments_from_html(html_filename):
     soup = BeautifulSoup(html_content, 'html.parser')
     fragments = []
 
-    # post_items = soup.find_all('div', class_='cmty-view-post-item')
-    # for item in post_items:
-    #     print(".", end='')
-    #     label = item.find('div', class_='cmty-view-post-item-label').text.strip()
-    #     text = item.find('div', class_='cmty-view-post-item-text').text.strip()
-    #     fragments.append((label, text))
-
     label_elements = soup.find_all('div', class_='cmty-view-post-item-label')
     text_elements = soup.find_all('div', class_='cmty-view-post-item-text')
 

@@ -22,3 +22,4 @@ def preprocess_text(text):
     tokens = [lemmatizer.lemmatize(token) for token in tokens]
 
     return tokens
+

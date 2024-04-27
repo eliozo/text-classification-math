@@ -33,6 +33,10 @@ y_pred = svm_classifier.predict(X_test)
 print(classification_report(y_test, y_pred))
 
 ###################################################################################
+# Results should be:
+# 1 - combinatorics
+# 2 - algebra
+# 3 - number --------------------------------theory
 problem1 = """The Bank of Oslo issues two types of coin: aluminum (denoted A) and bronze (denoted B). Marianne has $n$ 
 aluminum 
 coins and $n$ bronze coins arranged in a row in some arbitrary initial order. A chain is any subsequence of consecutive coins of the same type. Given a fixed positive integer $k \leq 2n$, Gilberty repeatedly performs the following operation: he identifies the longest chain containing the $k^{th}$ coin from the left and moves all coins in that chain to the left end of the row. For example, if $n=4$ and $k=4$, the process starting from the ordering $AABBBABA$ would be $AABBBABA \to BBBAAABA \to AAABBBBA \to BBBBAAAA \to ...$
@@ -40,7 +44,7 @@ coins and $n$ bronze coins arranged in a row in some arbitrary initial order. A 
 Find all pairs $(n,k)$ with $1 \leq k \leq 2n$ such that for every initial ordering, at some moment during the process, the leftmost $n$ coins will all be of the same type."""
 problem2 = """Let $\mathbb{R}^+$ denote the set of positive real numbers. Find all functions $f: \mathbb{R}^+ \to \mathbb{R}^+$ such that for each $x \in \mathbb{R}^+$, there is exactly one $y \in \mathbb{R}^+$ satisfying$$xf(y)+yf(x) \leq 2$$"""
 problem3 = """Let $k$ be a positive integer and let $S$ be a finite set of odd prime numbers. Prove that there is at most one way (up to rotation and reflection) to place the elements of $S$ around the circle such that the product of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$."""
-problems = [problem1, problem2, problem3]
+problems = [problem1, problem2, problem3] # problem1, problem2, problem3 contains problem text
 for problem in problems:
     # Load and preprocess the new sequence of tokens
     new_tokens = preprocess_text(problem)
