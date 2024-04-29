@@ -1,0 +1,84 @@
+Algebra
+Let $\mathbb{Q}_{>0}$ denote the set of all positive rational numbers. Determine all functions $f:\mathbb{Q}_{>0}\to \mathbb{Q}_{>0}$ satisfying $$f(x^2f(y)^2)=f(x)^2f(y)$$for all $x,y\in\mathbb{Q}_{>0}$
+Find all integers $n \geq 3$ for which there exist real numbers $a_1, a_2, \dots a_{n + 2}$ satisfying $a_{n + 1} = a_1$, $a_{n + 2} = a_2$ and
+$$a_ia_{i + 1} + 1 = a_{i + 2},$$for $i = 1, 2, \dots, n$.
+
+Proposed by Patrik Bak, Slovakia
+Given any set $S$ of positive integers, show that at least one of the following two assertions holds:
+
+(1) There exist distinct finite subsets $F$ and $G$ of $S$ such that $\sum_{x\in F}1/x=\sum_{x\in G}1/x$;
+
+(2) There exists a positive rational number $r<1$ such that $\sum_{x\in F}1/x\neq r$ for all finite subsets $F$ of $S$.
+Let $a_0,a_1,a_2,\dots $ be a sequence of real numbers such that $a_0=0, a_1=1,$ and for every $n\geq 2$ there exists $1 \leq k \leq n$ satisfying \[ a_n=\frac{a_{n-1}+\dots + a_{n-k}}{k}. \]Find the maximum possible value of $a_{2018}-a_{2017}$.
+Determine all functions $f:(0,\infty)\to\mathbb{R}$ satisfying $$\left(x+\frac{1}{x}\right)f(y)=f(xy)+f\left(\frac{y}{x}\right)$$for all $x,y>0$.
+Let $m,n\geq 2$ be integers. Let $f(x_1,\dots, x_n)$ be a polynomial with real coefficients such that $$f(x_1,\dots, x_n)=\left\lfloor \frac{x_1+\dots + x_n}{m} \right\rfloor\text{ for every } x_1,\dots, x_n\in \{0,1,\dots, m-1\}.$$Prove that the total degree of $f$ is at least $n$.
+Find the maximal value of
+\[S = \sqrt[3]{\frac{a}{b+7}} + \sqrt[3]{\frac{b}{c+7}} + \sqrt[3]{\frac{c}{d+7}} + \sqrt[3]{\frac{d}{a+7}},\]where $a$, $b$, $c$, $d$ are nonnegative real numbers which satisfy $a+b+c+d = 100$.
+
+Proposed by Evan Chen, Taiwan
+Combinatorics
+Let $n\geqslant 3$ be an integer. Prove that there exists a set $S$ of $2n$ positive integers satisfying the following property: For every $m=2,3,...,n$ the set $S$ can be partitioned into two subsets with equal sums of elements, with one of subsets of cardinality $m$.
+A site is any point $(x, y)$ in the plane such that $x$ and $y$ are both positive integers less than or equal to 20.
+
+Initially, each of the 400 sites is unoccupied. Amy and Ben take turns placing stones with Amy going first. On her turn, Amy places a new red stone on an unoccupied site such that the distance between any two sites occupied by red stones is not equal to $\sqrt{5}$. On his turn, Ben places a new blue stone on any unoccupied site. (A site occupied by a blue stone is allowed to be at any distance from any other occupied site.) They stop as soon as a player cannot place a stone.
+
+Find the greatest $K$ such that Amy can ensure that she places at least $K$ red stones, no matter how Ben places his blue stones.
+
+Proposed by Gurgen Asatryan, Armenia
+Let $n$ be a given positive integer. Sisyphus performs a sequence of turns on a board consisting of $n + 1$ squares in a row, numbered $0$ to $n$ from left to right. Initially, $n$ stones are put into square $0$, and the other squares are empty. At every turn, Sisyphus chooses any nonempty square, say with $k$ stones, takes one of these stones and moves it to the right by at most $k$ squares (the stone should say within the board). Sisyphus' aim is to move all $n$ stones to square $n$.
+Prove that Sisyphus cannot reach the aim in less than
+\[ \left \lceil \frac{n}{1} \right \rceil + \left \lceil \frac{n}{2} \right \rceil + \left \lceil \frac{n}{3} \right \rceil + \dots + \left \lceil \frac{n}{n} \right \rceil \]turns. (As usual, $\lceil x \rceil$ stands for the least integer not smaller than $x$. )
+An anti-Pascal triangle is an equilateral triangular array of numbers such that, except for the numbers in the bottom row, each number is the absolute value of the difference of the two numbers immediately below it. For example, the following is an anti-Pascal triangle with four rows which contains every integer from $1$ to $10$.
+\[\begin{array}{ c@{\hspace{4pt}}c@{\hspace{4pt}} c@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{4pt}}c } \vspace{4pt} & & & 4 & & & \\\vspace{4pt} & & 2 & & 6 & & \\\vspace{4pt} & 5 & & 7 & & 1 & \\\vspace{4pt} 8 & & 3 & & 10 & & 9 \\\vspace{4pt} \end{array}\]Does there exist an anti-Pascal triangle with $2018$ rows which contains every integer from $1$ to $1 + 2 + 3 + \dots + 2018$?
+
+Proposed by Morteza Saghafian, Iran
+Let $k$ be a positive integer. The organising commitee of a tennis tournament is to schedule the matches for $2k$ players so that every two players play once, each day exactly one match is played, and each player arrives to the tournament site the day of his first match, and departs the day of his last match. For every day a player is present on the tournament, the committee has to pay $1$ coin to the hotel. The organisers want to design the schedule so as to minimise the total cost of all players' stays. Determine this minimum cost.
+Let $a$ and $b$ be distinct positive integers. The following infinite process takes place on an initially empty board.
+
+    If there is at least a pair of equal numbers on the board, we choose such a pair and increase one of its components by $a$ and the other by $b$.
+    If no such pair exists, we write two times the number $0$.
+
+Prove that, no matter how we make the choices in $(i)$, operation $(ii)$ will be performed only finitely many times.
+
+Proposed by Serbia.
+Consider $2018$ pairwise crossing circles no three of which are concurrent. These circles subdivide the plane into regions bounded by circular $edges$ that meet at $vertices$. Notice that there are an even number of vertices on each circle. Given the circle, alternately colour the vertices on that circle red and blue. In doing so for each circle, every vertex is coloured twice- once for each of the two circle that cross at that point. If the two colours agree at a vertex, then it is assigned that colour; otherwise, it becomes yellow. Show that, if some circle contains at least $2061$ yellow points, then the vertices of some region are all yellow.
+
+
+Proposed by India
+Geometry
+Let $\Gamma$ be the circumcircle of acute triangle $ABC$. Points $D$ and $E$ are on segments $AB$ and $AC$ respectively such that $AD = AE$. The perpendicular bisectors of $BD$ and $CE$ intersect minor arcs $AB$ and $AC$ of $\Gamma$ at points $F$ and $G$ respectively. Prove that lines $DE$ and $FG$ are either parallel or they are the same line.
+
+Proposed by Silouanos Brazitikos, Evangelos Psychas and Michael Sarantis, Greece
+Let $ABC$ be a triangle with $AB=AC$, and let $M$ be the midpoint of $BC$. Let $P$ be a point such that $PB<PC$ and $PA$ is parallel to $BC$. Let $X$ and $Y$ be points on the lines $PB$ and $PC$, respectively, so that $B$ lies on the segment $PX$, $C$ lies on the segment $PY$, and $\angle PXM=\angle PYM$. Prove that the quadrilateral $APXY$ is cyclic.
+A circle $\omega$ with radius $1$ is given. A collection $T$ of triangles is called good, if the following conditions hold:
+
+    each triangle from $T$ is inscribed in $\omega$;
+    no two triangles from $T$ have a common interior point.
+
+Determine all positive real numbers $t$ such that, for each positive integer $n$, there exists a good collection of $n$ triangles, each of perimeter greater than $t$.
+A point $T$ is chosen inside a triangle $ABC$. Let $A_1$, $B_1$, and $C_1$ be the reflections of $T$ in $BC$, $CA$, and $AB$, respectively. Let $\Omega$ be the circumcircle of the triangle $A_1B_1C_1$. The lines $A_1T$, $B_1T$, and $C_1T$ meet $\Omega$ again at $A_2$, $B_2$, and $C_2$, respectively. Prove that the lines $AA_2$, $BB_2$, and $CC_2$ are concurrent on $\Omega$.
+
+Proposed by Mongolia
+Let $ABC$ be a triangle with circumcircle $\Omega$ and incentre $I$. A line $\ell$ intersects the lines $AI$, $BI$, and $CI$ at points $D$, $E$, and $F$, respectively, distinct from the points $A$, $B$, $C$, and $I$. The perpendicular bisectors $x$, $y$, and $z$ of the segments $AD$, $BE$, and $CF$, respectively determine a triangle $\Theta$. Show that the circumcircle of the triangle $\Theta$ is tangent to $\Omega$.
+A convex quadrilateral $ABCD$ satisfies $AB\cdot CD = BC\cdot DA$. Point $X$ lies inside $ABCD$ so that \[\angle{XAB} = \angle{XCD}\quad\,\,\text{and}\quad\,\,\angle{XBC} = \angle{XDA}.\]Prove that $\angle{BXA} + \angle{DXC} = 180^\circ$.
+
+Proposed by Tomasz Ciesla, Poland
+Let $O$ be the circumcentre, and $\Omega$ be the circumcircle of an acute-angled triangle $ABC$. Let $P$ be an arbitrary point on $\Omega$, distinct from $A$, $B$, $C$, and their antipodes in $\Omega$. Denote the circumcentres of the triangles $AOP$, $BOP$, and $COP$ by $O_A$, $O_B$, and $O_C$, respectively. The lines $\ell_A$, $\ell_B$, $\ell_C$ perpendicular to $BC$, $CA$, and $AB$ pass through $O_A$, $O_B$, and $O_C$, respectively. Prove that the circumcircle of triangle formed by $\ell_A$, $\ell_B$, and $\ell_C$ is tangent to the line $OP$.
+Number Theory
+Determine all pairs $(n, k)$ of distinct positive integers such that there exists a positive integer $s$ for which the number of divisors of $sn$ and of $sk$ are equal.
+Let $n>1$ be a positive integer. Each cell of an $n\times n$ table contains an integer. Suppose that the following conditions are satisfied:
+
+    Each number in the table is congruent to $1$ modulo $n$.
+    The sum of numbers in any row, as well as the sum of numbers in any column, is congruent to $n$ modulo $n^2$.
+
+Let $R_i$ be the product of the numbers in the $i^{\text{th}}$ row, and $C_j$ be the product of the number in the $j^{\text{th}}$ column. Prove that the sums $R_1+\hdots R_n$ and $C_1+\hdots C_n$ are congruent modulo $n^4$.
+Define the sequence $a_0,a_1,a_2,\hdots$ by $a_n=2^n+2^{\lfloor n/2\rfloor}$. Prove that there are infinitely many terms of the sequence which can be expressed as a sum of (two or more) distinct terms of the sequence, as well as infinitely many of those which cannot be expressed in such a way.
+Let $a_1$, $a_2$, $\ldots$ be an infinite sequence of positive integers. Suppose that there is an integer $N > 1$ such that, for each $n \geq N$, the number
+$$\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1}$$is an integer. Prove that there is a positive integer $M$ such that $a_m = a_{m+1}$ for all $m \geq M$.
+
+Proposed by Bayarmagnai Gombodorj, Mongolia
+Four positive integers $x,y,z$ and $t$ satisfy the relations
+\[ xy - zt = x + y = z + t. \]Is it possible that both $xy$ and $zt$ are perfect squares?
+Let $f : \{ 1, 2, 3, \dots \} \to \{ 2, 3, \dots \}$ be a function such that $f(m + n) | f(m) + f(n) $ for all pairs $m,n$ of positive integers. Prove that there exists a positive integer $c > 1$ which divides all values of $f$.
+Let $n \ge 2018$ be an integer, and let $a_1, a_2, \dots, a_n, b_1, b_2, \dots, b_n$ be pairwise distinct positive integers not exceeding $5n$. Suppose that the sequence
+\[ \frac{a_1}{b_1}, \frac{a_2}{b_2}, \dots, \frac{a_n}{b_n} \]forms an arithmetic progression. Prove that the terms of the sequence are equal.

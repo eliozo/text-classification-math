@@ -1,0 +1,80 @@
+Geometry
+Let $A_1$ be the center of the square inscribed in acute triangle $ABC$ with two vertices of the square on side $BC$. Thus one of the two remaining vertices of the square is on side $AB$ and the other is on $AC$. Points $B_1,\ C_1$ are defined in a similar way for inscribed squares with two vertices on sides $AC$ and $AB$, respectively. Prove that lines $AA_1,\ BB_1,\ CC_1$ are concurrent.
+
+Click for solution
+
+Consider an acute-angled triangle $ABC$. Let $P$ be the foot of the altitude of triangle $ABC$ issuing from the vertex $A$, and let $O$ be the circumcenter of triangle $ABC$. Assume that $\angle C \geq \angle B+30^{\circ}$. Prove that $\angle A+\angle COP < 90^{\circ}$.
+Let $ABC$ be a triangle with centroid $G$. Determine, with proof, the position of the point $P$ in the plane of $ABC$ such that $AP{\cdot}AG + BP{\cdot}BG + CP{\cdot}CG$ is a minimum, and express this minimum value in terms of the side lengths of $ABC$.
+
+Click for solution
+
+Let $M$ be a point in the interior of triangle $ABC$. Let $A'$ lie on $BC$ with $MA'$ perpendicular to $BC$. Define $B'$ on $CA$ and $C'$ on $AB$ similarly. Define
+
+\[ p(M) = \frac{MA' \cdot MB' \cdot MC'}{MA \cdot MB \cdot MC}. \]
+
+Determine, with proof, the location of $M$ such that $p(M)$ is maximal. Let $\mu(ABC)$ denote this maximum value. For which triangles $ABC$ is the value of $\mu(ABC)$ maximal?
+Let $ABC$ be an acute triangle. Let $DAC,EAB$, and $FBC$ be isosceles triangles exterior to $ABC$, with $DA=DC, EA=EB$, and $FB=FC$, such that
+\[ \angle ADC = 2\angle BAC, \quad \angle BEA= 2 \angle ABC, \quad \angle CFB = 2 \angle ACB. \]Let $D'$ be the intersection of lines $DB$ and $EF$, let $E'$ be the intersection of $EC$ and $DF$, and let $F'$ be the intersection of $FA$ and $DE$. Find, with proof, the value of the sum
+\[ \frac{DB}{DD'}+\frac{EC}{EE'}+\frac{FA}{FF'}. \]
+
+Click for solution
+
+Let $ABC$ be a triangle and $P$ an exterior point in the plane of the triangle. Suppose the lines $AP$, $BP$, $CP$ meet the sides $BC$, $CA$, $AB$ (or extensions thereof) in $D$, $E$, $F$, respectively. Suppose further that the areas of triangles $PBD$, $PCE$, $PAF$ are all equal. Prove that each of these areas is equal to the area of triangle $ABC$ itself.
+Let $O$ be an interior point of acute triangle $ABC$. Let $A_1$ lie on $BC$ with $OA_1$ perpendicular to $BC$. Define $B_1$ on $CA$ and $C_1$ on $AB$ similarly. Prove that $O$ is the circumcenter of $ABC$ if and only if the perimeter of $A_1B_1C_1$ is not less than any one of the perimeters of $AB_1C_1, BC_1A_1$, and $CA_1B_1$.
+
+Click for solution
+
+Let $ABC$ be a triangle with $\angle BAC = 60^{\circ}$. Let $AP$ bisect $\angle BAC$ and let $BQ$ bisect $\angle ABC$, with $P$ on $BC$ and $Q$ on $AC$. If $AB + BP = AQ + QB$, what are the angles of the triangle?
+Number Theory
+Prove that there is no positive integer $n$ such that, for $k = 1,2,\ldots,9$, the leftmost digit (in decimal notation) of $(n+k)!$ equals $k$.
+
+Click for solution
+
+Consider the system \begin{align*}x + y &= z + u,\\2xy & = zu.\end{align*}Find the greatest value of the real constant $m$ such that $m \leq x/y$ for any positive integer solution $(x,y,z,u)$ of the system, with $x \geq y$.
+Let $ a_1 = 11^{11}, \, a_2 = 12^{12}, \, a_3 = 13^{13}$, and $ a_n = |a_{n - 1} - a_{n - 2}| + |a_{n - 2} - a_{n - 3}|, n \geq 4.$ Determine $ a_{14^{14}}$.
+Let $p \geq 5$ be a prime number. Prove that there exists an integer $a$ with $1 \leq a \leq p-2$ such that neither $a^{p-1}-1$ nor $(a+1)^{p-1}-1$ is divisible by $p^2$.
+
+Click for solution
+
+Let $a > b > c > d$ be positive integers and suppose that \[ ac + bd = (b+d+a-c)(b+d-a+c). \] Prove that $ab + cd$ is not prime.
+
+Click for solution
+
+Is it possible to find $100$ positive integers not exceeding $25,000$, such that all pairwise sums of them are different?
+Algebra
+Let $ T$ denote the set of all ordered triples $ (p,q,r)$ of nonnegative integers. Find all functions $ f: T \rightarrow \mathbb{R}$ satisfying
+\[ f(p,q,r) = \begin{cases} 0 & \text{if} \; pqr = 0, \\ 1 + \frac{1}{6}(f(p + 1,q - 1,r) + f(p - 1,q + 1,r) & \\ + f(p - 1,q,r + 1) + f(p + 1,q,r - 1) & \\ + f(p,q + 1,r - 1) + f(p,q - 1,r + 1)) & \text{otherwise} \end{cases} \]
+for all nonnegative integers $ p$, $ q$, $ r$.
+Let $a_0, a_1, a_2, \ldots$ be an arbitrary infinite sequence of positive numbers. Show that the inequality $1 + a_n > a_{n-1} \sqrt[n]{2}$ holds for infinitely many positive integers $n$.
+
+Click for solution
+
+Let $x_1,x_2,\ldots,x_n$ be arbitrary real numbers. Prove the inequality
+
+\[ \frac{x_1}{1+x_1^2} + \frac{x_2}{1+x_1^2 + x_2^2} + \cdots + \frac{x_n}{1 + x_1^2 + \cdots + x_n^2} < \sqrt{n}. \]
+Find all functions $f: \mathbb{R} \rightarrow \mathbb{R}$, satisfying \[ f(xy)(f(x) - f(y)) = (x-y)f(x)f(y) \] for all $x,y$.
+
+Click for solution
+
+Find all positive integers $a_1, a_2, \ldots, a_n$ such that
+
+\[ \frac{99}{100} = \frac{a_0}{a_1} + \frac{a_1}{a_2} + \cdots + \frac{a_{n-1}}{a_n}, \]
+where $a_0 = 1$ and $(a_{k+1}-1)a_{k-1} \geq a_k^2(a_k - 1)$ for $k = 1,2,\ldots,n-1$.
+Prove that for all positive real numbers $a,b,c$, \[ \frac{a}{\sqrt{a^2 + 8bc}} + \frac{b}{\sqrt{b^2 + 8ca}} + \frac{c}{\sqrt{c^2 + 8ab}} \geq 1. \]
+Combinatorics
+Let $A = (a_1, a_2, \ldots, a_{2001})$ be a sequence of positive integers. Let $m$ be the number of 3-element subsequences $(a_i,a_j,a_k)$ with $1 \leq i < j < k \leq 2001$, such that $a_j = a_i + 1$ and $a_k = a_j + 1$. Considering all such sequences $A$, find the greatest value of $m$.
+
+Click for solution
+
+Let $n$ be an odd integer greater than 1 and let $c_1, c_2, \ldots, c_n$ be integers. For each permutation $a = (a_1, a_2, \ldots, a_n)$ of $\{1,2,\ldots,n\}$, define $S(a) = \sum_{i=1}^n c_i a_i$. Prove that there exist permutations $a \neq b$ of $\{1,2,\ldots,n\}$ such that $n!$ is a divisor of $S(a)-S(b)$.
+Define a $ k$-clique to be a set of $ k$ people such that every pair of them are acquainted with each other. At a certain party, every pair of 3-cliques has at least one person in common, and there are no 5-cliques. Prove that there are two or fewer people at the party whose departure leaves no 3-clique remaining.
+A set of three nonnegative integers $\{x,y,z\}$ with $x < y < z$ is called historic if $\{z-y,y-x\} = \{1776,2001\}$. Show that the set of all nonnegative integers can be written as the union of pairwise disjoint historic sets.
+Find all finite sequences $(x_0, x_1, \ldots,x_n)$ such that for every $j$, $0 \leq j \leq n$, $x_j$ equals the number of times $j$ appears in the sequence.
+For a positive integer $n$ define a sequence of zeros and ones to be balanced if it contains $n$ zeros and $n$ ones. Two balanced sequences $a$ and $b$ are neighbors if you can move one of the $2n$ symbols of $a$ to another position to form $b$. For instance, when $n = 4$, the balanced sequences $01101001$ and $00110101$ are neighbors because the third (or fourth) zero in the first sequence can be moved to the first or second position to form the second sequence. Prove that there is a set $S$ of at most $\frac{1}{n+1} \binom{2n}{n}$ balanced sequences such that every balanced sequence is equal to or is a neighbor of at least one sequence in $S$.
+A pile of $n$ pebbles is placed in a vertical column. This configuration is modified according to the following rules. A pebble can be moved if it is at the top of a column which contains at least two more pebbles than the column immediately to its right. (If there are no pebbles to the right, think of this as a column with 0 pebbles.) At each stage, choose a pebble from among those that can be moved (if there are any) and place it at the top of the column to its right. If no pebbles can be moved, the configuration is called a final configuration. For each $n$, show that, no matter what choices are made at each stage, the final configuration obtained is unique. Describe that configuration in terms of $n$.
+
+IMO ShortList 2001, combinatorics problem 7, alternative
+
+Click for solution
+
+Twenty-one girls and twenty-one boys took part in a mathematical competition. It turned out that each contestant solved at most six problems, and for each pair of a girl and a boy, there was at least one problem that was solved by both the girl and the boy. Show that there is a problem that was solved by at least three girls and at least three boys.

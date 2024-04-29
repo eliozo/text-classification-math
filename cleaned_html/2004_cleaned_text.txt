@@ -1,0 +1,171 @@
+Geometry
+1. Let $ABC$ be an acute-angled triangle with $AB\neq AC$. The circle with diameter $BC$ intersects the sides $AB$ and $AC$ at $M$ and $N$ respectively. Denote by $O$ the midpoint of the side $BC$. The bisectors of the angles $\angle BAC$ and $\angle MON$ intersect at $R$. Prove that the circumcircles of the triangles $BMR$ and $CNR$ have a common point lying on the side $BC$.
+
+Click for solution
+
+Let $\Gamma$ be a circle and let $d$ be a line such that $\Gamma$ and $d$ have no common points. Further, let $AB$ be a diameter of the circle $\Gamma$; assume that this diameter $AB$ is perpendicular to the line $d$, and the point $B$ is nearer to the line $d$ than the point $A$. Let $C$ be an arbitrary point on the circle $\Gamma$, different from the points $A$ and $B$. Let $D$ be the point of intersection of the lines $AC$ and $d$. One of the two tangents from the point $D$ to the circle $\Gamma$ touches this circle $\Gamma$ at a point $E$; hereby, we assume that the points $B$ and $E$ lie in the same halfplane with respect to the line $AC$. Denote by $F$ the point of intersection of the lines $BE$ and $d$. Let the line $AF$ intersect the circle $\Gamma$ at a point $G$, different from $A$.
+
+Prove that the reflection of the point $G$ in the line $AB$ lies on the line $CF$.
+Let $O$ be the circumcenter of an acute-angled triangle $ABC$ with ${\angle B<\angle C}$. The line $AO$ meets the side $BC$ at $D$. The circumcenters of the triangles $ABD$ and $ACD$ are $E$ and $F$, respectively. Extend the sides $BA$ and $CA$ beyond $A$, and choose on the respective extensions points $G$ and $H$ such that ${AG=AC}$ and ${AH=AB}$. Prove that the quadrilateral $EFGH$ is a rectangle if and only if ${\angle ACB-\angle ABC=60^{\circ }}$.
+
+Proposed by Hojoo Lee, Korea
+In a convex quadrilateral $ABCD$, the diagonal $BD$ bisects neither the angle $ABC$ nor the angle $CDA$. The point $P$ lies inside $ABCD$ and satisfies \[\angle PBC=\angle DBA\quad\text{and}\quad \angle PDC=\angle BDA.\] Prove that $ABCD$ is a cyclic quadrilateral if and only if $AP=CP$.
+
+Click for solution
+
+Let $A_1A_2A_3\ldots A_n$ be a regular $n$-gon. Let $B_1$ and $B_{n-1}$ be the midpoints of its sides $A_1A_2$ and $A_{n-1}A_n$. Also, for every $i\in\left\{2,3,4,\ldots ,n-2\right\}$. Let $S$ be the point of intersection of the lines $A_1A_{i+1}$ and $A_nA_i$, and let $B_i$ be the point of intersection of the angle bisector bisector of the angle $\measuredangle A_iSA_{i+1}$ with the segment $A_iA_{i+1}$.
+
+Prove that $\sum_{i=1}^{n-1} \measuredangle A_1B_iA_n=180^{\circ}$.
+
+Proposed by Dusan Dukic, Serbia and Montenegro
+
+Click for solution
+
+Let $P$ be a convex polygon. Prove that there exists a convex hexagon that is contained in $P$ and whose area is at least $\frac34$ of the area of the polygon $P$.
+
+Alternative version. Let $P$ be a convex polygon with $n\geq 6$ vertices. Prove that there exists a convex hexagon with
+
+a) vertices on the sides of the polygon (or)
+b) vertices among the vertices of the polygon
+
+such that the area of the hexagon is at least $\frac{3}{4}$ of the area of the polygon.
+
+Proposed by Ben Green and Edward Crane, United Kingdom
+
+Click for solution
+
+For a given triangle $ ABC$, let $ X$ be a variable point on the line $ BC$ such that $ C$ lies between $ B$ and $ X$ and the incircles of the triangles $ ABX$ and $ ACX$ intersect at two distinct points $ P$ and $ Q.$ Prove that the line $ PQ$ passes through a point independent of $ X$.
+
+Click for solution
+
+Given a cyclic quadrilateral $ABCD$, let $M$ be the midpoint of the side $CD$, and let $N$ be a point on the circumcircle of triangle $ABM$. Assume that the point $N$ is different from the point $M$ and satisfies $\frac{AN}{BN}=\frac{AM}{BM}$. Prove that the points $E$, $F$, $N$ are collinear, where $E=AC\cap BD$ and $F=BC\cap DA$.
+
+Proposed by Dusan Dukic, Serbia and Montenegro
+
+Click for solution
+
+Number Theory
+Let $\tau(n)$ denote the number of positive divisors of the positive integer $n$. Prove that there exist infinitely many positive integers $a$ such that the equation $ \tau(an)=n $ does not have a positive integer solution $n$.
+The function $f$ from the set $\mathbb{N}$ of positive integers into itself is defined by the equality \[f(n)=\sum_{k=1}^{n} \gcd(k,n),\qquad n\in \mathbb{N}.\]
+a) Prove that $f(mn)=f(m)f(n)$ for every two relatively prime ${m,n\in\mathbb{N}}$.
+
+b) Prove that for each $a\in\mathbb{N}$ the equation $f(x)=ax$ has a solution.
+
+c) Find all ${a\in\mathbb{N}}$ such that the equation $f(x)=ax$ has a unique solution.
+
+Click for solution
+
+Find all functions $ f: \mathbb{N^{*}}\to \mathbb{N^{*}}$ satisfying
+\[ \left(f^{2}\left(m\right)+f\left(n\right)\right) \mid \left(m^{2}+n\right)^{2}\]
+for any two positive integers $ m$ and $ n$.
+
+Remark. The abbreviation $ \mathbb{N^{*}}$ stands for the set of all positive integers:
+$ \mathbb{N^{*}}=\left\{1,2,3,...\right\}$.
+By $ f^{2}\left(m\right)$, we mean $ \left(f\left(m\right)\right)^{2}$ (and not $ f\left(f\left(m\right)\right)$).
+
+Proposed by Mohsen Jamali, Iran
+
+Click for solution
+
+Let $k$ be a fixed integer greater than 1, and let ${m=4k^2-5}$. Show that there exist positive integers $a$ and $b$ such that the sequence $(x_n)$ defined by \[x_0=a,\quad x_1=b,\quad x_{n+2}=x_{n+1}+x_n\quad\text{for}\quad n=0,1,2,\dots,\] has all of its terms relatively prime to $m$.
+
+Proposed by Jaroslaw Wroblewski, Poland
+We call a positive integer alternating if every two consecutive digits in its decimal representation are of different parity.
+
+Find all positive integers $n$ such that $n$ has a multiple which is alternating.
+
+Click for solution
+
+Given an integer ${n>1}$, denote by $P_{n}$ the product of all positive integers $x$ less than $n$ and such that $n$ divides ${x^2-1}$. For each ${n>1}$, find the remainder of $P_{n}$ on division by $n$.
+
+Proposed by John Murray, Ireland
+
+Click for solution
+
+Let $p$ be an odd prime and $n$ a positive integer. In the coordinate plane, eight distinct points with integer coordinates lie on a circle with diameter of length $p^{n}$. Prove that there exists a triangle with vertices at three of the given points such that the squares of its side lengths are integers divisible by $p^{n+1}$.
+
+Proposed by Alexander Ivanov, Bulgaria
+
+Click for solution
+
+Algebra
+Let $n \geq 3$ be an integer. Let $t_1$, $t_2$, ..., $t_n$ be positive real numbers such that \[n^2 + 1 > \left( t_1 + t_2 + \cdots + t_n \right) \left( \frac{1}{t_1} + \frac{1}{t_2} + \cdots + \frac{1}{t_n} \right).\] Show that $t_i$, $t_j$, $t_k$ are side lengths of a triangle for all $i$, $j$, $k$ with $1 \leq i < j < k \leq n$.
+
+Click for solution
+
+Let $a_0$, $a_1$, $a_2$, ... be an infinite sequence of real numbers satisfying the equation $a_n=\left|a_{n+1}-a_{n+2}\right|$ for all $n\geq 0$, where $a_0$ and $a_1$ are two different positive reals.
+
+Can this sequence $a_0$, $a_1$, $a_2$, ... be bounded?
+
+Proposed by Mihai Bălună, Romania
+Does there exist a function $s\colon \mathbb{Q} \rightarrow \{-1,1\}$ such that if $x$ and $y$ are distinct rational numbers satisfying ${xy=1}$ or ${x+y\in \{0,1\}}$, then ${s(x)s(y)=-1}$? Justify your answer.
+
+Proposed by Dan Brown, Canada
+
+Click for solution
+
+Find all polynomials $f$ with real coefficients such that for all reals $a,b,c$ such that $ab+bc+ca = 0$ we have the following relations
+
+\[ f(a-b) + f(b-c) + f(c-a) = 2f(a+b+c). \]
+
+Click for solution
+
+If $a$, $b$ ,$c$ are three positive real numbers such that $ab+bc+ca = 1$, prove that \[ \sqrt[3]{ \frac{1}{a} + 6b} + \sqrt[3]{\frac{1}{b} + 6c} + \sqrt[3]{\frac{1}{c} + 6a } \leq \frac{1}{abc}. \]
+Find all functions $f:\mathbb{R} \to \mathbb{R}$ satisfying the equation \[ f(x^2+y^2+2f(xy)) = (f(x+y))^2. \] for all $x,y \in \mathbb{R}$.
+
+Click for solution
+
+Let ${a_1,a_2,\dots,a_n}$ be positive real numbers, ${n>1}$. Denote by $g_n$ their geometric mean, and by $A_1,A_2,\dots,A_n$ the sequence of arithmetic means defined by \[ A_k=\frac{a_1+a_2+\cdots+a_k}{k},\qquad k=1,2,\dots,n. \] Let $G_n$ be the geometric mean of $A_1,A_2,\dots,A_n$. Prove the inequality \[ n \root n\of{\frac{G_n}{A_n}}+ \frac{g_n}{G_n}\le n+1 \] and establish the cases of equality.
+
+Proposed by Finbarr Holland, Ireland
+
+Click for solution
+
+Combinatorics
+There are $10001$ students at an university. Some students join together to form several clubs (a student may belong to different clubs). Some clubs join together to form several societies (a club may belong to different societies). There are a total of $k$ societies. Suppose that the following conditions hold:
+
+i.) Each pair of students are in exactly one club.
+
+ii.) For each student and each society, the student is in exactly one club of the society.
+
+iii.) Each club has an odd number of students. In addition, a club with ${2m+1}$ students ($m$ is a positive integer) is
+in exactly $m$ societies.
+
+Find all possible values of $k$.
+
+Proposed by Guihua Gong, Puerto Rico
+
+Click for solution
+
+Let ${n}$ and $k$ be positive integers. There are given ${n}$ circles in the plane. Every two of them intersect at two distinct points, and all points of intersection they determine are pairwise distinct (i. e. no three circles have a common point). No three circles have a point in common. Each intersection point must be colored with one of $n$ distinct colors so that each color is used at least once and exactly $k$ distinct colors occur on each circle. Find all values of $n\geq 2$ and $k$ for which such a coloring is possible.
+
+Proposed by Horst Sewerin, Germany
+The following operation is allowed on a finite graph: Choose an arbitrary cycle of length 4 (if there is any), choose an arbitrary edge in that cycle, and delete it from the graph. For a fixed integer ${n\ge 4}$, find the least number of edges of a graph that can be obtained by repeated applications of this operation from the complete graph on $n$ vertices (where each pair of vertices are joined by an edge).
+
+Proposed by Norman Do, Australia
+
+Click for solution
+
+Consider a matrix of size $n\times n$ whose entries are real numbers of absolute value not exceeding $1$. The sum of all entries of the matrix is $0$. Let $n$ be an even positive integer. Determine the least number $C$ such that every such matrix necessarily has a row or a column with the sum of its entries not exceeding $C$ in absolute value.
+
+Proposed by Marcin Kuczma, Poland
+$A$ and $B$ play a game, given an integer $N$, $A$ writes down $1$ first, then every player sees the last number written and if it is $n$ then in his turn he writes $n+1$ or $2n$, but his number cannot be bigger than $N$. The player who writes $N$ wins. For which values of $N$ does $B$ win?
+
+Proposed by A. Slinko & S. Marshall, New Zealand
+
+Click for solution
+
+For an ${n\times n}$ matrix $A$, let $X_{i}$ be the set of entries in row $i$, and $Y_{j}$ the set of entries in column $j$, ${1\leq i,j\leq n}$. We say that $A$ is golden if ${X_{1},\dots ,X_{n},Y_{1},\dots ,Y_{n}}$ are distinct sets. Find the least integer $n$ such that there exists a ${2004\times 2004}$ golden matrix with entries in the set ${\{1,2,\dots ,n\}}$.
+Define a "hook" to be a figure made up of six unit squares as shown below in the picture, or any of the figures obtained by applying rotations and reflections to this figure.
+
+[asy] unitsize(0.5 cm); draw((0,0)--(1,0)); draw((0,1)--(1,1)); draw((2,1)--(3,1)); draw((0,2)--(3,2)); draw((0,3)--(3,3)); draw((0,0)--(0,3)); draw((1,0)--(1,3)); draw((2,1)--(2,3)); draw((3,1)--(3,3)); [/asy]
+Determine all $ m\times n$ rectangles that can be covered without gaps and without overlaps with hooks such that
+
+- the rectangle is covered without gaps and without overlaps
+- no part of a hook covers area outside the rectangle.
+
+Click for solution
+
+For a finite graph $G$, let $f(G)$ be the number of triangles and $g(G)$ the number of tetrahedra formed by edges of $G$. Find the least constant $c$ such that \[g(G)^3\le c\cdot f(G)^4\] for every graph $G$.
+
+Proposed by Marcin Kuczma, Poland 

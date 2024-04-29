@@ -1,0 +1,114 @@
+Algebra
+Find all pairs of integers $a,b$ for which there exists a polynomial $P(x) \in \mathbb{Z}[X]$ such that product $(x^2+ax+b)\cdot P(x)$ is a polynomial of a form \[ x^n+c_{n-1}x^{n-1}+\cdots+c_1x+c_0 \] where each of $c_0,c_1,\ldots,c_{n-1}$ is equal to $1$ or $-1$.
+We denote by $\mathbb{R}^+$ the set of all positive real numbers.
+
+Find all functions $f: \mathbb R^ + \rightarrow\mathbb R^ +$ which have the property:
+\[f(x)f(y)=2f(x+yf(x))\]
+for all positive real numbers $x$ and $y$.
+
+Proposed by Nikolai Nikolov, Bulgaria
+Four real numbers $ p$, $ q$, $ r$, $ s$ satisfy $ p+q+r+s = 9$ and $ p^{2}+q^{2}+r^{2}+s^{2}= 21$. Prove that there exists a permutation $ \left(a,b,c,d\right)$ of $ \left(p,q,r,s\right)$ such that $ ab-cd \geq 2$.
+Find all functions $ f: \mathbb{R}\to\mathbb{R}$ such that $ f(x+y)+f(x)f(y)=f(xy)+2xy+1$ for all real numbers $ x$ and $ y$.
+
+Proposed by B.J. Venkatachala, India
+Let $x,y,z$ be three positive reals such that $xyz\geq 1$. Prove that
+\[ \frac { x^5-x^2 }{x^5+y^2+z^2} + \frac {y^5-y^2}{x^2+y^5+z^2} + \frac {z^5-z^2}{x^2+y^2+z^5} \geq 0 . \]
+Hojoo Lee, Korea
+
+Click for solution
+
+Combinatorics
+A house has an even number of lamps distributed among its rooms in such a way that there are at least three lamps in every room. Each lamp shares a switch with exactly one other lamp, not necessarily from the same room. Each change in the switch shared by two lamps changes their states simultaneously. Prove that for every initial state of the lamps there exists a sequence of changes in some of the switches at the end of which each room contains lamps which are on as well as lamps which are off.
+
+Proposed by Australia
+This ISL 2005 problem has not been used in any TST I know. A pity, since it is a nice problem, but in its shortlist formulation, it is absolutely incomprehensible. Here is a mathematical restatement of the problem:
+
+Let $k$ be a nonnegative integer.
+
+A forest consists of rooted (i. e. oriented) trees. Each vertex of the forest is either a leaf or has two successors. A vertex $v$ is called an extended successor of a vertex $u$ if there is a chain of vertices $u_{0}=u$, $u_{1}$, $u_{2}$, ..., $u_{t-1}$, $u_{t}=v$ with $t>0$ such that the vertex $u_{i+1}$ is a successor of the vertex $u_{i}$ for every integer $i$ with $0\leq i\leq t-1$. A vertex is called dynastic if it has two successors and each of these successors has at least $k$ extended successors.
+
+Prove that if the forest has $n$ vertices, then there are at most $\frac{n}{k+2}$ dynastic vertices.
+Consider a $m\times n$ rectangular board consisting of $mn$ unit squares. Two of its unit squares are called adjacent if they have a common edge, and a path is a sequence of unit squares in which any two consecutive squares are adjacent. Two parths are called non-intersecting if they don't share any common squares.
+
+Each unit square of the rectangular board can be colored black or white. We speak of a coloring of the board if all its $mn$ unit squares are colored.
+
+Let $N$ be the number of colorings of the board such that there exists at least one black path from the left edge of the board to its right edge. Let $M$ be the number of colorings of the board for which there exist at least two non-intersecting black paths from the left edge of the board to its right edge.
+
+Prove that $N^{2}\geq M\cdot 2^{mn}$.
+Let $n\geq 3$ be a fixed integer. Each side and each diagonal of a regular $n$-gon is labelled with a number from the set $\left\{1;\;2;\;...;\;r\right\}$ in a way such that the following two conditions are fulfilled:
+
+1. Each number from the set $\left\{1;\;2;\;...;\;r\right\}$ occurs at least once as a label.
+
+2. In each triangle formed by three vertices of the $n$-gon, two of the sides are labelled with the same number, and this number is greater than the label of the third side.
+
+(a) Find the maximal $r$ for which such a labelling is possible.
+
+(b) Harder version (IMO Shortlist 2005): For this maximal value of $r$, how many such labellings are there?
+
+Easier version (5th German TST 2006) - contains answer to the harder version
+
+Proposed by Federico Ardila, Colombia
+There are $ n$ markers, each with one side white and the other side black. In the beginning, these $ n$ markers are aligned in a row so that their white sides are all up. In each step, if possible, we choose a marker whose white side is up (but not one of the outermost markers), remove it, and reverse the closest marker to the left of it and also reverse the closest marker to the right of it. Prove that, by a finite sequence of such steps, one can achieve a state with only two markers remaining if and only if $ n - 1$ is not divisible by $ 3$.
+
+Proposed by Dusan Dukic, Serbia
+In a mathematical competition, in which $6$ problems were posed to the participants, every two of these problems were solved by more than $\frac 25$ of the contestants. Moreover, no contestant solved all the $6$ problems. Show that there are at least $2$ contestants who solved exactly $5$ problems each.
+
+Radu Gologan and Dan Schwartz
+Suppose that $ a_1$, $ a_2$, $ \ldots$, $ a_n$ are integers such that $ n\mid a_1 + a_2 + \ldots + a_n$.
+Prove that there exist two permutations $ \left(b_1,b_2,\ldots,b_n\right)$ and $ \left(c_1,c_2,\ldots,c_n\right)$ of $ \left(1,2,\ldots,n\right)$ such that for each integer $ i$ with $ 1\leq i\leq n$, we have
+\[ n\mid a_i - b_i - c_i \]
+
+Proposed by Ricky Liu & Zuming Feng, USA
+Suppose we have a $n$-gon. Some $n-3$ diagonals are coloured black and some other $n-3$ diagonals are coloured red (a side is not a diagonal), so that no two diagonals of the same colour can intersect strictly inside the polygon, although they can share a vertex. Find the maximum number of intersection points between diagonals coloured differently strictly inside the polygon, in terms of $n$.
+
+Proposed by Alexander Ivanov, Bulgaria
+Geometry
+Given a triangle $ABC$ satisfying $AC+BC=3\cdot AB$. The incircle of triangle $ABC$ has center $I$ and touches the sides $BC$ and $CA$ at the points $D$ and $E$, respectively. Let $K$ and $L$ be the reflections of the points $D$ and $E$ with respect to $I$. Prove that the points $A$, $B$, $K$, $L$ lie on one circle.
+
+Proposed by Dimitris Kontogiannis, Greece
+
+Click for solution
+
+Six points are chosen on the sides of an equilateral triangle $ABC$: $A_1$, $A_2$ on $BC$, $B_1$, $B_2$ on $CA$ and $C_1$, $C_2$ on $AB$, such that they are the vertices of a convex hexagon $A_1A_2B_1B_2C_1C_2$ with equal side lengths.
+
+Prove that the lines $A_1B_2$, $B_1C_2$ and $C_1A_2$ are concurrent.
+
+Bogdan Enescu, Romania
+Let $ABCD$ be a parallelogram. A variable line $g$ through the vertex $A$ intersects the rays $BC$ and $DC$ at the points $X$ and $Y$, respectively. Let $K$ and $L$ be the $A$-excenters of the triangles $ABX$ and $ADY$. Show that the angle $\measuredangle KCL$ is independent of the line $g$.
+
+Proposed by Vyacheslev Yasinskiy, Ukraine
+Let $ABCD$ be a fixed convex quadrilateral with $BC=DA$ and $BC$ not parallel with $DA$. Let two variable points $E$ and $F$ lie of the sides $BC$ and $DA$, respectively and satisfy $BE=DF$. The lines $AC$ and $BD$ meet at $P$, the lines $BD$ and $EF$ meet at $Q$, the lines $EF$ and $AC$ meet at $R$.
+
+Prove that the circumcircles of the triangles $PQR$, as $E$ and $F$ vary, have a common point other than $P$.
+Let $\triangle ABC$ be an acute-angled triangle with $AB \not= AC$. Let $H$ be the orthocenter of triangle $ABC$, and let $M$ be the midpoint of the side $BC$. Let $D$ be a point on the side $AB$ and $E$ a point on the side $AC$ such that $AE=AD$ and the points $D$, $H$, $E$ are on the same line. Prove that the line $HM$ is perpendicular to the common chord of the circumscribed circles of triangle $\triangle ABC$ and triangle $\triangle ADE$.
+Let $ABC$ be a triangle, and $M$ the midpoint of its side $BC$. Let $\gamma$ be the incircle of triangle $ABC$. The median $AM$ of triangle $ABC$ intersects the incircle $\gamma$ at two points $K$ and $L$. Let the lines passing through $K$ and $L$, parallel to $BC$, intersect the incircle $\gamma$ again in two points $X$ and $Y$. Let the lines $AX$ and $AY$ intersect $BC$ again at the points $P$ and $Q$. Prove that $BP = CQ$.
+In an acute triangle $ABC$, let $D$, $E$, $F$ be the feet of the perpendiculars from the points $A$, $B$, $C$ to the lines $BC$, $CA$, $AB$, respectively, and let $P$, $Q$, $R$ be the feet of the perpendiculars from the points $A$, $B$, $C$ to the lines $EF$, $FD$, $DE$, respectively.
+
+Prove that $p\left(ABC\right)p\left(PQR\right) \ge \left(p\left(DEF\right)\right)^{2}$, where $p\left(T\right)$ denotes the perimeter of triangle $T$ .
+
+Proposed by Hojoo Lee, Korea
+Number Theory
+Determine all positive integers relatively prime to all the terms of the infinite sequence \[ a_n=2^n+3^n+6^n -1,\ n\geq 1. \]
+Let $a_1,a_2,\ldots$ be a sequence of integers with infinitely many positive and negative terms. Suppose that for every positive integer $n$ the numbers $a_1,a_2,\ldots,a_n$ leave $n$ different remainders upon division by $n$.
+
+Prove that every integer occurs exactly once in the sequence $a_1,a_2,\ldots$.
+Let $ a$, $ b$, $ c$, $ d$, $ e$, $ f$ be positive integers and let $ S = a+b+c+d+e+f$.
+Suppose that the number $ S$ divides $ abc+def$ and $ ab+bc+ca-de-ef-df$. Prove that $ S$ is composite.
+Find all positive integers $ n$ such that there exists a unique integer $ a$ such that $ 0\leq a < n!$ with the following property:
+\[ n!\mid a^n + 1 \]
+
+Proposed by Carlos Caicedo, Colombia
+Denote by $d(n)$ the number of divisors of the positive integer $n$. A positive integer $n$ is called highly divisible if $d(n) > d(m)$ for all positive integers $m < n$.
+Two highly divisible integers $m$ and $n$ with $m < n$ are called consecutive if there exists no highly divisible integer $s$ satisfying $m < s < n$.
+
+(a) Show that there are only finitely many pairs of consecutive highly divisible
+integers of the form $(a, b)$ with $a\mid b$.
+
+(b) Show that for every prime number $p$ there exist infinitely many positive highly divisible integers $r$ such that $pr$ is also highly divisible.
+Let $a$, $b$ be positive integers such that $b^n+n$ is a multiple of $a^n+n$ for all positive integers $n$. Prove that $a=b$.
+
+Proposed by Mohsen Jamali, Iran
+
+Click for solution
+
+Let $P(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\ldots+a_{0}$, where $a_{0},\ldots,a_{n}$ are integers, $a_{n}>0$, $n\geq 2$. Prove that there exists a positive integer $m$ such that $P(m!)$ is a composite number.

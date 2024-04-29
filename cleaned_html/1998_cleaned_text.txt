@@ -1,0 +1,108 @@
+Geometry
+A convex quadrilateral $ABCD$ has perpendicular diagonals. The perpendicular bisectors of the sides $AB$ and $CD$ meet at a unique point $P$ inside $ABCD$. Prove that the quadrilateral $ABCD$ is cyclic if and only if triangles $ABP$ and $CDP$ have equal areas.
+
+Click for solution
+
+Let $ABCD$ be a cyclic quadrilateral. Let $E$ and $F$ be variable points on the sides $AB$ and $CD$, respectively, such that $AE:EB=CF:FD$. Let $P$ be the point on the segment $EF$ such that $PE:PF=AB:CD$. Prove that the ratio between the areas of triangles $APD$ and $BPC$ does not depend on the choice of $E$ and $F$.
+Let $I$ be the incenter of triangle $ABC$. Let $K,L$ and $M$ be the points of tangency of the incircle of $ABC$ with $AB,BC$ and $CA$, respectively. The line $t$ passes through $B$ and is parallel to $KL$. The lines $MK$ and $ML$ intersect $t$ at the points $R$ and $S$. Prove that $\angle RIS$ is acute.
+
+Click for solution
+
+Let $ M$ and $ N$ be two points inside triangle $ ABC$ such that
+\[ \angle MAB = \angle NAC\quad \mbox{and}\quad \angle MBA = \angle NBC. \]
+Prove that
+\[ \frac {AM \cdot AN}{AB \cdot AC} + \frac {BM \cdot BN}{BA \cdot BC} + \frac {CM \cdot CN}{CA \cdot CB} = 1. \]
+Let $ABC$ be a triangle, $H$ its orthocenter, $O$ its circumcenter, and $R$ its circumradius. Let $D$ be the reflection of the point $A$ across the line $BC$, let $E$ be the reflection of the point $B$ across the line $CA$, and let $F$ be the reflection of the point $C$ across the line $AB$. Prove that the points $D$, $E$ and $F$ are collinear if and only if $OH=2R$.
+Let $ABCDEF$ be a convex hexagon such that $\angle B+\angle D+\angle F=360^{\circ }$ and \[ \frac{AB}{BC} \cdot \frac{CD}{DE} \cdot \frac{EF}{FA} = 1. \] Prove that \[ \frac{BC}{CA} \cdot \frac{AE}{EF} \cdot \frac{FD}{DB} = 1. \]
+Let $ABC$ be a triangle such that $\angle ACB=2\angle ABC$. Let $D$ be the point on the side $BC$ such that $CD=2BD$. The segment $AD$ is extended to $E$ so that $AD=DE$. Prove that \[ \angle ECB+180^{\circ }=2\angle EBC. \]
+
+Click for solution
+
+Let $ABC$ be a triangle such that $\angle A=90^{\circ }$ and $\angle B<\angle C$. The tangent at $A$ to the circumcircle $\omega$ of triangle $ABC$ meets the line $BC$ at $D$. Let $E$ be the reflection of $A$ in the line $BC$, let $X$ be the foot of the perpendicular from $A$ to $BE$, and let $Y$ be the midpoint of the segment $AX$. Let the line $BY$ intersect the circle $\omega$ again at $Z$.
+
+Prove that the line $BD$ is tangent to the circumcircle of triangle $ADZ$.
+
+comment
+
+Click for solution
+
+Number Theory
+Determine all pairs $(x,y)$ of positive integers such that $x^{2}y+x+y$ is divisible by $xy^{2}+y+7$.
+
+Click for solution
+
+Determine all pairs $(a,b)$ of real numbers such that $a \lfloor bn \rfloor =b \lfloor an \rfloor $ for all positive integers $n$. (Note that $\lfloor x\rfloor $ denotes the greatest integer less than or equal to $x$.)
+
+Click for solution
+
+Determine the smallest integer $n\geq 4$ for which one can choose four different numbers $a,b,c$ and $d$ from any $n$ distinct integers such that $a+b-c-d$ is divisible by $20$.
+
+Click for solution
+
+A sequence of integers $ a_{1},a_{2},a_{3},\ldots$ is defined as follows: $ a_{1} = 1$ and for $ n\geq 1$, $ a_{n + 1}$ is the smallest integer greater than $ a_{n}$ such that $ a_{i} + a_{j}\neq 3a_{k}$ for any $ i,j$ and $ k$ in $ \{1,2,3,\ldots ,n + 1\}$, not necessarily distinct. Determine $ a_{1998}$.
+Determine all positive integers $n$ for which there exists an integer $m$ such that ${2^{n}-1}$ is a divisor of ${m^{2}+9}$.
+For any positive integer $n$, let $\tau (n)$ denote the number of its positive divisors (including 1 and itself). Determine all positive integers $m$ for which there exists a positive integer $n$ such that $\frac{\tau (n^{2})}{\tau (n)}=m$.
+Prove that for each positive integer $n$, there exists a positive integer with the following properties: It has exactly $n$ digits. None of the digits is 0. It is divisible by the sum of its digits.
+Let $a_{0},a_{1},a_{2},\ldots $ be an increasing sequence of nonnegative integers such that every nonnegative integer can be expressed uniquely in the form $a_{i}+2a_{j}+4a_{k}$, where $i,j$ and $k$ are not necessarily distinct. Determine $a_{1998}$.
+
+Click for solution
+
+Algebra
+Let $a_{1},a_{2},\ldots ,a_{n}$ be positive real numbers such that $a_{1}+a_{2}+\cdots +a_{n}<1$. Prove that
+
+\[ \frac{a_{1} a_{2} \cdots a_{n} \left[ 1 - (a_{1} + a_{2} + \cdots + a_{n}) \right] }{(a_{1} + a_{2} + \cdots + a_{n})( 1 - a_{1})(1 - a_{2}) \cdots (1 - a_{n})} \leq \frac{1}{ n^{n+1}}. \]
+
+Click for solution
+
+Let $r_{1},r_{2},\ldots ,r_{n}$ be real numbers greater than or equal to 1. Prove that
+
+\[ \frac{1}{r_{1} + 1} + \frac{1}{r_{2} + 1} + \cdots +\frac{1}{r_{n}+1} \geq \frac{n}{ \sqrt[n]{r_{1}r_{2} \cdots r_{n}}+1}. \]
+
+Click for solution
+
+Let $x,y$ and $z$ be positive real numbers such that $xyz=1$. Prove that
+
+
+\[ \frac{x^{3}}{(1 + y)(1 + z)}+\frac{y^{3}}{(1 + z)(1 + x)}+\frac{z^{3}}{(1 + x)(1 + y)} \geq \frac{3}{4}. \]
+
+Click for solution
+
+For any two nonnegative integers $n$ and $k$ satisfying $n\geq k$, we define the number $c(n,k)$ as follows:
+
+- $c\left(n,0\right)=c\left(n,n\right)=1$ for all $n\geq 0$;
+
+- $c\left(n+1,k\right)=2^{k}c\left(n,k\right)+c\left(n,k-1\right)$ for $n\geq k\geq 1$.
+
+Prove that $c\left(n,k\right)=c\left(n,n-k\right)$ for all $n\geq k\geq 0$.
+Determine the least possible value of $f(1998),$ where $f:\Bbb{N}\to \Bbb{N}$ is a function such that for all $m,n\in {\Bbb N}$,
+
+\[f\left( n^{2}f(m)\right) =m\left( f(n)\right) ^{2}. \]
+
+Click for solution
+
+Combinatorics
+A rectangular array of numbers is given. In each row and each column, the sum of all numbers is an integer. Prove that each nonintegral number $x$ in the array can be changed into either $\lceil x\rceil $ or $\lfloor x\rfloor $ so that the row-sums and column-sums remain unchanged. (Note that $\lceil x\rceil $ is the least integer greater than or equal to $x$, while $\lfloor x\rfloor $ is the greatest integer less than or equal to $x$.)
+Let $n$ be an integer greater than 2. A positive integer is said to be attainable if it is 1 or can be obtained from 1 by a sequence of operations with the following properties:
+
+1.) The first operation is either addition or multiplication.
+
+2.) Thereafter, additions and multiplications are used alternately.
+
+3.) In each addition, one can choose independently whether to add 2 or $n$
+
+4.) In each multiplication, one can choose independently whether to multiply by 2 or by $n$.
+
+A positive integer which cannot be so obtained is said to be unattainable.
+
+
+a.) Prove that if $n\geq 9$, there are infinitely many unattainable positive integers.
+
+b.) Prove that if $n=3$, all positive integers except 7 are attainable.
+Cards numbered 1 to 9 are arranged at random in a row. In a move, one may choose any block of consecutive cards whose numbers are in ascending or descending order, and switch the block around. For example, 9 1 $\underline{6\ 5\ 3}$ $2\ 7\ 4\ 8$ may be changed to $9 1$ $\underline{3\ 5\ 6}$ $2\ 7\ 4\ 8$. Prove that in at most 12 moves, one can arrange the 9 cards so that their numbers are in ascending or descending order.
+Let $U=\{1,2,\ldots ,n\}$, where $n\geq 3$. A subset $S$ of $U$ is said to be split by an arrangement of the elements of $U$ if an element not in $S$ occurs in the arrangement somewhere between two elements of $S$. For example, 13542 splits $\{1,2,3\}$ but not $\{3,4,5\}$. Prove that for any $n-2$ subsets of $U$, each containing at least 2 and at most $n-1$ elements, there is an arrangement of the elements of $U$ which splits all of them.
+In a contest, there are $m$ candidates and $n$ judges, where $n\geq 3$ is an odd integer. Each candidate is evaluated by each judge as either pass or fail. Suppose that each pair of judges agrees on at most $k$ candidates. Prove that \[{\frac{k}{m}} \geq {\frac{n-1}{2n}}. \]
+
+Click for solution
+
+Ten points are marked in the plane so that no three of them lie on a line. Each pair of points is connected with a segment. Each of these segments is painted with one of $k$ colors, in such a way that for any $k$ of the ten points, there are $k$ segments each joining two of them and no two being painted with the same color. Determine all integers $k$, $1\leq k\leq 10$, for which this is possible.
+A solitaire game is played on an $m\times n$ rectangular board, using $mn$ markers which are white on one side and black on the other. Initially, each square of the board contains a marker with its white side up, except for one corner square, which contains a marker with its black side up. In each move, one may take away one marker with its black side up, but must then turn over all markers which are in squares having an edge in common with the square of the removed marker. Determine all pairs $(m,n)$ of positive integers such that all markers can be removed from the board.

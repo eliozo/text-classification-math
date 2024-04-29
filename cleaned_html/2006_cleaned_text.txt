@@ -1,0 +1,106 @@
+Algebra
+A sequence of real numbers $ a_{0},\ a_{1},\ a_{2},\dots$ is defined by the formula
+\[ a_{i + 1} = \left\lfloor a_{i}\right\rfloor\cdot \left\langle a_{i}\right\rangle\qquad\text{for}\quad i\geq 0; \]here $a_0$ is an arbitrary real number, $\lfloor a_i\rfloor$ denotes the greatest integer not exceeding $a_i$, and $\left\langle a_i\right\rangle=a_i-\lfloor a_i\rfloor$. Prove that $a_i=a_{i+2}$ for $i$ sufficiently large.
+
+Proposed by Harmel Nestra, Estionia
+The sequence of real numbers $a_0,a_1,a_2,\ldots$ is defined recursively by \[a_0=-1,\qquad\sum_{k=0}^n\dfrac{a_{n-k}}{k+1}=0\quad\text{for}\quad n\geq 1.\]Show that $ a_{n} > 0$ for all $ n\geq 1$.
+
+Proposed by Mariusz Skalba, Poland
+The sequence $c_{0}, c_{1}, . . . , c_{n}, . . .$ is defined by $c_{0}= 1, c_{1}= 0$, and $c_{n+2}= c_{n+1}+c_{n}$ for $n \geq 0$. Consider the set $S$ of ordered pairs $(x, y)$ for which there is a finite set $J$ of positive integers such that $x=\textstyle\sum_{j \in J}{c_{j}}$, $y=\textstyle\sum_{j \in J}{c_{j-1}}$. Prove that there exist real numbers $\alpha$, $\beta$, and $M$ with the following property: An ordered pair of nonnegative integers $(x, y)$ satisfies the inequality \[m < \alpha x+\beta y < M\] if and only if $(x, y) \in S$.
+
+Remark: A sum over the elements of the empty set is assumed to be $0$.
+Prove the inequality:
+\[\sum_{i < j}{\frac {a_{i}a_{j}}{a_{i} + a_{j}}}\leq \frac {n}{2(a_{1} + a_{2} +\cdots + a_{n})}\cdot \sum_{i < j}{a_{i}a_{j}}\]
+for positive reals $ a_{1},a_{2},\ldots,a_{n}$.
+
+Proposed by Dusan Dukic, Serbia
+If $a,b,c$ are the sides of a triangle, prove that
+\[\frac{\sqrt{b+c-a}}{\sqrt{b}+\sqrt{c}-\sqrt{a}}+\frac{\sqrt{c+a-b}}{\sqrt{c}+\sqrt{a}-\sqrt{b}}+\frac{\sqrt{a+b-c}}{\sqrt{a}+\sqrt{b}-\sqrt{c}}\leq 3 \]
+
+Proposed by Hojoo Lee, Korea
+Determine the least real number $M$ such that the inequality \[|ab(a^{2}-b^{2})+bc(b^{2}-c^{2})+ca(c^{2}-a^{2})| \leq M(a^{2}+b^{2}+c^{2})^{2}\] holds for all real numbers $a$, $b$ and $c$.
+Combinatorics
+We have $ n \geq 2$ lamps $ L_{1}, . . . ,L_{n}$ in a row, each of them being either on or off. Every second we simultaneously modify the state of each lamp as follows: if the lamp $ L_{i}$ and its neighbours (only one neighbour for $ i = 1$ or $ i = n$, two neighbours for other $ i$) are in the same state, then $ L_{i}$ is switched off; – otherwise, $ L_{i}$ is switched on.
+Initially all the lamps are off except the leftmost one which is on.
+
+$ (a)$ Prove that there are infinitely many integers $ n$ for which all the lamps will eventually be off.
+$ (b)$ Prove that there are infinitely many integers $ n$ for which the lamps will never be all off.
+Let $P$ be a regular $2006$-gon. A diagonal is called good if its endpoints divide the boundary of $P$ into two parts, each composed of an odd number of sides of $P$. The sides of $P$ are also called good.
+Suppose $P$ has been dissected into triangles by $2003$ diagonals, no two of which have a common point in the interior of $P$. Find the maximum number of isosceles triangles having two good sides that could appear in such a configuration.
+Let $ S$ be a finite set of points in the plane such that no three of them are on a line. For each convex polygon $ P$ whose vertices are in $ S$, let $ a(P)$ be the number of vertices of $ P$, and let $ b(P)$ be the number of points of $ S$ which are outside $ P$. A line segment, a point, and the empty set are considered as convex polygons of $ 2$, $ 1$, and $ 0$ vertices respectively. Prove that for every real number $ x$ \[\sum_{P}{x^{a(P)}(1 - x)^{b(P)}} = 1,\] where the sum is taken over all convex polygons with vertices in $ S$.
+
+Alternative formulation:
+
+Let $ M$ be a finite point set in the plane and no three points are collinear. A subset $ A$ of $ M$ will be called round if its elements is the set of vertices of a convex $ A -$gon $ V(A).$ For each round subset let $ r(A)$ be the number of points from $ M$ which are exterior from the convex $ A -$gon $ V(A).$ Subsets with $ 0,1$ and 2 elements are always round, its corresponding polygons are the empty set, a point or a segment, respectively (for which all other points that are not vertices of the polygon are exterior). For each round subset $ A$ of $ M$ construct the polynomial
+\[ P_A(x) = x^{|A|}(1 - x)^{r(A)}. \]
+Show that the sum of polynomials for all round subsets is exactly the polynomial $ P(x) = 1.$
+
+Proposed by Federico Ardila, Colombia
+A cake has the form of an $ n$ x $ n$ square composed of $ n^{2}$ unit squares. Strawberries lie on some of the unit squares so that each row or column contains exactly one strawberry; call this arrangement $\mathcal{A}$.
+
+Let $\mathcal{B}$ be another such arrangement. Suppose that every grid rectangle with one vertex at the top left corner of the cake contains no fewer strawberries of arrangement $\mathcal{B}$ than of arrangement $\mathcal{A}$. Prove that arrangement $\mathcal{B}$ can be obtained from $ \mathcal{A}$ by performing a number of switches, defined as follows:
+
+A switch consists in selecting a grid rectangle with only two strawberries, situated at its top right corner and bottom left corner, and moving these two strawberries to the other two corners of that rectangle.
+An $ (n, k) -$ tournament is a contest with $ n$ players held in $ k$ rounds such that:
+
+$ (i)$ Each player plays in each round, and every two players meet at most once.
+$ (ii)$ If player $ A$ meets player $ B$ in round $ i$, player $ C$ meets player $ D$ in round $ i$, and player $ A$ meets player $ C$ in round $ j$, then player $ B$ meets player $ D$ in round $ j$.
+
+Determine all pairs $ (n, k)$ for which there exists an $ (n, k) -$ tournament.
+
+Proposed by Carlos di Fiore, Argentina
+A holey triangle is an upward equilateral triangle of side length $n$ with $n$ upward unit triangular holes cut out. A diamond is a $60^\circ-120^\circ$ unit rhombus.
+Prove that a holey triangle $T$ can be tiled with diamonds if and only if the following condition holds: Every upward equilateral triangle of side length $k$ in $T$ contains at most $k$ holes, for $1\leq k\leq n$.
+
+Proposed by Federico Ardila, Colombia 
+
+Click for solution
+
+Consider a convex polyhedron without parallel edges and without an edge parallel to any face other than the two faces adjacent to it. Call a pair of points of the polyhedron antipodal if there exist two parallel planes passing through these points and such that the polyhedron is contained between these planes. Let $A$ be the number of antipodal pairs of vertices, and let $B$ be the number of antipodal pairs of midpoint edges. Determine the difference $A-B$ in terms of the numbers of vertices, edges, and faces.
+
+Proposed by Kei Irei, Japan
+Geometry
+Let $ABC$ be triangle with incenter $I$. A point $P$ in the interior of the triangle satisfies \[\angle PBA+\angle PCA = \angle PBC+\angle PCB.\] Show that $AP \geq AI$, and that equality holds if and only if $P=I$.
+Let $ ABCD$ be a trapezoid with parallel sides $ AB > CD$. Points $ K$ and $ L$ lie on the line segments $ AB$ and $ CD$, respectively, so that $AK/KB=DL/LC$. Suppose that there are points $ P$ and $ Q$ on the line segment $ KL$ satisfying \[\angle{APB} = \angle{BCD}\qquad\text{and}\qquad \angle{CQD} = \angle{ABC}.\]Prove that the points $ P$, $ Q$, $ B$ and $ C$ are concyclic.
+
+Proposed by Vyacheslev Yasinskiy, Ukraine
+Let $ ABCDE$ be a convex pentagon such that
+\[ \angle BAC = \angle CAD = \angle DAE\qquad \text{and}\qquad \angle ABC = \angle ACD = \angle ADE. \]The diagonals $BD$ and $CE$ meet at $P$. Prove that the line $AP$ bisects the side $CD$.
+
+Proposed by Zuming Feng, USA
+A point $D$ is chosen on the side $AC$ of a triangle $ABC$ with $\angle C < \angle A < 90^\circ$ in such a way that $BD=BA$. The incircle of $ABC$ is tangent to $AB$ and $AC$ at points $K$ and $L$, respectively. Let $J$ be the incenter of triangle $BCD$. Prove that the line $KL$ intersects the line segment $AJ$ at its midpoint.
+In triangle $ABC$, let $J$ be the center of the excircle tangent to side $BC$ at $A_{1}$ and to the extensions of the sides $AC$ and $AB$ at $B_{1}$ and $C_{1}$ respectively. Suppose that the lines $A_{1}B_{1}$ and $AB$ are perpendicular and intersect at $D$. Let $E$ be the foot of the perpendicular from $C_{1}$ to line $DJ$. Determine the angles $\angle{BEA_{1}}$ and $\angle{AEB_{1}}$.
+
+Proposed by Dimitris Kontogiannis, Greece
+Circles $ w_{1}$ and $ w_{2}$ with centres $ O_{1}$ and $ O_{2}$ are externally tangent at point $ D$ and internally tangent to a circle $ w$ at points $ E$ and $ F$ respectively. Line $ t$ is the common tangent of $ w_{1}$ and $ w_{2}$ at $ D$. Let $ AB$ be the diameter of $ w$ perpendicular to $ t$, so that $ A, E, O_{1}$ are on the same side of $ t$. Prove that lines $ AO_{1}$, $ BO_{2}$, $ EF$ and $ t$ are concurrent.
+In a triangle $ ABC$, let $ M_{a}$, $ M_{b}$, $ M_{c}$ be the midpoints of the sides $ BC$, $ CA$, $ AB$, respectively, and $ T_{a}$, $ T_{b}$, $ T_{c}$ be the midpoints of the arcs $ BC$, $ CA$, $ AB$ of the circumcircle of $ ABC$, not containing the vertices $ A$, $ B$, $ C$, respectively. For $ i \in \left\{a, b, c\right\}$, let $ w_{i}$ be the circle with $ M_{i}T_{i}$ as diameter. Let $ p_{i}$ be the common external common tangent to the circles $ w_{j}$ and $ w_{k}$ (for all $ \left\{i, j, k\right\}= \left\{a, b, c\right\}$) such that $ w_{i}$ lies on the opposite side of $ p_{i}$ than $ w_{j}$ and $ w_{k}$ do.
+Prove that the lines $ p_{a}$, $ p_{b}$, $ p_{c}$ form a triangle similar to $ ABC$ and find the ratio of similitude.
+
+Proposed by Tomas Jurik, Slovakia
+Let $ABCD$ be a convex quadrilateral. A circle passing through the points $A$ and $D$ and a circle passing through the points $B$ and $C$ are externally tangent at a point $P$ inside the quadrilateral. Suppose that \[\angle{PAB}+\angle{PDC}\leq 90^\circ\qquad\text{and}\qquad\angle{PBA}+\angle{PCD}\leq 90^\circ.\] Prove that $AB+CD \geq BC+AD$.
+
+Proposed by Waldemar Pompe, Poland
+Points $ A_{1}$, $ B_{1}$, $ C_{1}$ are chosen on the sides $ BC$, $ CA$, $ AB$ of a triangle $ ABC$ respectively. The circumcircles of triangles $ AB_{1}C_{1}$, $ BC_{1}A_{1}$, $ CA_{1}B_{1}$ intersect the circumcircle of triangle $ ABC$ again at points $ A_{2}$, $ B_{2}$, $ C_{2}$ respectively ($ A_{2}\neq A, B_{2}\neq B, C_{2}\neq C$). Points $ A_{3}$, $ B_{3}$, $ C_{3}$ are symmetric to $ A_{1}$, $ B_{1}$, $ C_{1}$ with respect to the midpoints of the sides $ BC$, $ CA$, $ AB$ respectively. Prove that the triangles $ A_{2}B_{2}C_{2}$ and $ A_{3}B_{3}C_{3}$ are similar.
+Assign to each side $b$ of a convex polygon $P$ the maximum area of a triangle that has $b$ as a side and is contained in $P$. Show that the sum of the areas assigned to the sides of $P$ is at least twice the area of $P$.
+Number Theory
+Determine all pairs $(x, y)$ of integers such that \[1+2^{x}+2^{2x+1}= y^{2}.\]
+For $ x \in (0, 1)$ let $ y \in (0, 1)$ be the number whose $ n$-th digit after the decimal point is the $ 2^{n}$-th digit after the decimal point of $ x$. Show that if $ x$ is rational then so is $ y$.
+
+Proposed by J.P. Grossman, Canada
+We define a sequence $ \left(a_{1},a_{2},a_{3},\ldots \right)$ by
+\[ a_{n} = \frac {1}{n}\left(\left\lfloor\frac {n}{1}\right\rfloor + \left\lfloor\frac {n}{2}\right\rfloor + \cdots + \left\lfloor\frac {n}{n}\right\rfloor\right), \] where $\lfloor x\rfloor$ denotes the integer part of $x$.
+
+a) Prove that $a_{n+1}>a_n$ infinitely often.
+b) Prove that $a_{n+1}<a_n$ infinitely often.
+
+Proposed by Johan Meyer, South Africa
+Let $P(x)$ be a polynomial of degree $n > 1$ with integer coefficients and let $k$ be a positive integer. Consider the polynomial $Q(x) = P(P(\ldots P(P(x)) \ldots ))$, where $P$ occurs $k$ times. Prove that there are at most $n$ integers $t$ such that $Q(t) = t$.
+Find all integer solutions of the equation \[\frac {x^{7} - 1}{x - 1} = y^{5} - 1.\]
+Let $ a > b > 1$ be relatively prime positive integers. Define the weight of an integer $ c$, denoted by $ w(c)$ to be the minimal possible value of $ |x| + |y|$ taken over all pairs of integers $ x$ and $ y$ such that \[ax + by = c.\] An integer $ c$ is called a local champion if $ w(c) \geq w(c \pm a)$ and $ w(c) \geq w(c \pm b)$.
+
+Find all local champions and determine their number.
+
+Proposed by Zoran Sunic, USA
+For all positive integers $n$, show that there exists a positive integer $m$ such that $n$ divides $2^{m} + m$.
+
+Proposed by Juhan Aru, Estonia

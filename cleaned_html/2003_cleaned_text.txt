@@ -1,0 +1,180 @@
+Geometry
+Let $ABCD$ be a cyclic quadrilateral. Let $P$, $Q$, $R$ be the feet of the perpendiculars from $D$ to the lines $BC$, $CA$, $AB$, respectively. Show that $PQ=QR$ if and only if the bisectors of $\angle ABC$ and $\angle ADC$ are concurrent with $AC$.
+
+Click for solution
+
+Three distinct points $A$, $B$, and $C$ are fixed on a line in this order. Let $\Gamma$ be a circle passing through $A$ and $C$ whose center does not lie on the line $AC$. Denote by $P$ the intersection of the tangents to $\Gamma$ at $A$ and $C$. Suppose $\Gamma$ meets the segment $PB$ at $Q$. Prove that the intersection of the bisector of $\angle AQC$ and the line $AC$ does not depend on the choice of $\Gamma$.
+
+Click for solution
+
+Let $ABC$ be a triangle and let $P$ be a point in its interior. Denote by $D$, $E$, $F$ the feet of the perpendiculars from $P$ to the lines $BC$, $CA$, $AB$, respectively. Suppose that \[AP^2 + PD^2 = BP^2 + PE^2 = CP^2 + PF^2.\]Denote by $I_A$, $I_B$, $I_C$ the excenters of the triangle $ABC$. Prove that $P$ is the circumcenter of the triangle $I_AI_BI_C$.
+
+Proposed by C.R. Pranesachar, India 
+
+Click for solution
+
+Let $\Gamma_1$, $\Gamma_2$, $\Gamma_3$, $\Gamma_4$ be distinct circles such that $\Gamma_1$, $\Gamma_3$ are externally tangent at $P$, and $\Gamma_2$, $\Gamma_4$ are externally tangent at the same point $P$. Suppose that $\Gamma_1$ and $\Gamma_2$; $\Gamma_2$ and $\Gamma_3$; $\Gamma_3$ and $\Gamma_4$; $\Gamma_4$ and $\Gamma_1$ meet at $A$, $B$, $C$, $D$, respectively, and that all these points are different from $P$. Prove that
+
+\[ \frac{AB\cdot BC}{AD\cdot DC}=\frac{PB^2}{PD^2}. \]
+
+Click for solution
+
+Let $ABC$ be an isosceles triangle with $AC=BC$, whose incentre is $I$. Let $P$ be a point on the circumcircle of the triangle $AIB$ lying inside the triangle $ABC$. The lines through $P$ parallel to $CA$ and $CB$ meet $AB$ at $D$ and $E$, respectively. The line through $P$ parallel to $AB$ meets $CA$ and $CB$ at $F$ and $G$, respectively. Prove that the lines $DF$ and $EG$ intersect on the circumcircle of the triangle $ABC$.
+
+Proposed by Hojoo Lee
+Each pair of opposite sides of a convex hexagon has the following property: the distance between their midpoints is equal to $\dfrac{\sqrt{3}}{2}$ times the sum of their lengths. Prove that all the angles of the hexagon are equal.
+
+Click for solution
+
+Let $ABC$ be a triangle with semiperimeter $s$ and inradius $r$. The semicircles with diameters $BC$, $CA$, $AB$ are drawn on the outside of the triangle $ABC$. The circle tangent to all of these three semicircles has radius $t$. Prove that
+\[\frac{s}{2}<t\le\frac{s}{2}+\left(1-\frac{\sqrt{3}}{2}\right)r. \]
+Alternative formulation. In a triangle $ABC$, construct circles with diameters $BC$, $CA$, and $AB$, respectively. Construct a circle $w$ externally tangent to these three circles. Let the radius of this circle $w$ be $t$.
+Prove: $\frac{s}{2}<t\le\frac{s}{2}+\frac12\left(2-\sqrt3\right)r$, where $r$ is the inradius and $s$ is the semiperimeter of triangle $ABC$.
+
+Proposed by Dirk Laurie, South Africa
+Number Theory
+Let $m$ be a fixed integer greater than $1$. The sequence $x_0$, $x_1$, $x_2$, $\ldots$ is defined as follows:
+\[x_i = \begin{cases}2^i&\text{if }0\leq i \leq m - 1;\\\sum_{j=1}^mx_{i-j}&\text{if }i\geq m.\end{cases}\]Find the greatest $k$ for which the sequence contains $k$ consecutive terms divisible by $m$ .
+
+Proposed by Marcin Kuczma, Poland
+
+Click for solution
+
+Each positive integer $a$ undergoes the following procedure in order to obtain the number $d = d\left(a\right)$:
+
+(i) move the last digit of $a$ to the first position to obtain the numb er $b$;
+(ii) square $b$ to obtain the number $c$;
+(iii) move the first digit of $c$ to the end to obtain the number $d$.
+
+(All the numbers in the problem are considered to be represented in base $10$.) For example, for $a=2003$, we get $b=3200$, $c=10240000$, and $d = 02400001 = 2400001 = d(2003)$.)
+
+Find all numbers $a$ for which $d\left( a\right) =a^2$.
+
+Proposed by Zoran Sunic, USA
+Determine all pairs of positive integers $(a,b)$ such that \[ \dfrac{a^2}{2ab^2-b^3+1} \] is a positive integer.
+
+Click for solution
+
+Let $ b$ be an integer greater than $ 5$. For each positive integer $ n$, consider the number \[ x_n = \underbrace{11\cdots1}_{n - 1}\underbrace{22\cdots2}_{n}5, \] written in base $ b$.
+
+Prove that the following condition holds if and only if $ b = 10$: there exists a positive integer $ M$ such that for any integer $ n$ greater than $ M$, the number $ x_n$ is a perfect square.
+
+Proposed by Laurentiu Panaitopol, Romania
+
+Click for solution
+
+An integer $n$ is said to be good if $|n|$ is not the square of an integer. Determine all integers $m$ with the following property: $m$ can be represented, in infinitely many ways, as a sum of three distinct good integers whose product is the square of an odd integer.
+
+Proposed by Hojoo Lee, Korea
+
+Click for solution
+
+Let $p$ be a prime number. Prove that there exists a prime number $q$ such that for every integer $n$, the number $n^p-p$ is not divisible by $q$.
+
+Click for solution
+
+The sequence $a_0$, $a_1$, $a_2,$ $\ldots$ is defined as follows: \[a_0=2, \qquad a_{k+1}=2a_k^2-1 \quad\text{for }k \geq 0.\]Prove that if an odd prime $p$ divides $a_n$, then $2^{n+3}$ divides $p^2-1$.
+
+comment
+
+Click for solution
+
+Let $p$ be a prime number and let $A$ be a set of positive integers that satisfies the following conditions:
+
+(i) the set of prime divisors of the elements in $A$ consists of $p-1$ elements;
+
+(ii) for any nonempty subset of $A$, the product of its elements is not a perfect $p$-th power.
+
+What is the largest possible number of elements in $A$ ?
+Algebra
+Let $a_{ij}$ $i=1,2,3$; $j=1,2,3$ be real numbers such that $a_{ij}$ is positive for $i=j$ and negative for $i\neq j$.
+
+Prove the existence of positive real numbers $c_{1}$, $c_{2}$, $c_{3}$ such that the numbers \[a_{11}c_{1}+a_{12}c_{2}+a_{13}c_{3},\qquad a_{21}c_{1}+a_{22}c_{2}+a_{23}c_{3},\qquad a_{31}c_{1}+a_{32}c_{2}+a_{33}c_{3}\]are either all negative, all positive, or all zero.
+
+Proposed by Kiran Kedlaya, USA
+
+Click for solution
+
+Find all nondecreasing functions $f: \mathbb{R}\rightarrow\mathbb{R}$ such that
+(i) $f(0) = 0, f(1) = 1;$
+(ii) $f(a) + f(b) = f(a)f(b) + f(a + b - ab)$ for all real numbers $a, b$ such that $a < 1 < b$.
+
+Proposed by A. Di Pisquale & D. Matthews, Australia
+
+Click for solution
+
+Consider pairs of the sequences of positive real numbers \[a_1\geq a_2\geq a_3\geq\cdots,\qquad b_1\geq b_2\geq b_3\geq\cdots\]and the sums \[A_n = a_1 + \cdots + a_n,\quad B_n = b_1 + \cdots + b_n;\qquad n = 1,2,\ldots.\]For any pair define $c_n = \min\{a_i,b_i\}$ and $C_n = c_1 + \cdots + c_n$, $n=1,2,\ldots$.
+
+
+(1) Does there exist a pair $(a_i)_{i\geq 1}$, $(b_i)_{i\geq 1}$ such that the sequences $(A_n)_{n\geq 1}$ and $(B_n)_{n\geq 1}$ are unbounded while the sequence $(C_n)_{n\geq 1}$ is bounded?
+
+(2) Does the answer to question (1) change by assuming additionally that $b_i = 1/i$, $i=1,2,\ldots$?
+
+Justify your answer.
+
+Click for solution
+
+Let $n$ be a positive integer and let $x_1\le x_2\le\cdots\le x_n$ be real numbers.
+Prove that
+
+\[ \left(\sum_{i,j=1}^{n}|x_i-x_j|\right)^2\le\frac{2(n^2-1)}{3}\sum_{i,j=1}^{n}(x_i-x_j)^2. \]
+Show that the equality holds if and only if $x_1, \ldots, x_n$ is an arithmetic sequence.
+
+Click for solution
+
+Let $\mathbb{R}^+$ be the set of all positive real numbers. Find all functions $f: \mathbb{R}^+ \to \mathbb{R}^+$ that satisfy the following conditions:
+
+- $f(xyz)+f(x)+f(y)+f(z)=f(\sqrt{xy})f(\sqrt{yz})f(\sqrt{zx})$ for all $x,y,z\in\mathbb{R}^+$;
+
+- $f(x)<f(y)$ for all $1\le x<y$.
+
+Proposed by Hojoo Lee, Korea
+
+Click for solution
+
+Let $n$ be a positive integer and let $(x_1,\ldots,x_n)$, $(y_1,\ldots,y_n)$ be two sequences of positive real numbers. Suppose $(z_2,\ldots,z_{2n})$ is a sequence of positive real numbers such that $z_{i+j}^2 \geq x_iy_j$ for all $1\le i,j \leq n$.
+
+Let $M=\max\{z_2,\ldots,z_{2n}\}$. Prove that \[ \left( \frac{M+z_2+\dots+z_{2n}}{2n} \right)^2 \ge \left( \frac{x_1+\dots+x_n}{n} \right) \left( \frac{y_1+\dots+y_n}{n} \right). \]
+
+comment
+
+Proposed by Reid Barton, USA
+
+Click for solution
+
+Combinatorics
+Let $A$ be a $101$-element subset of the set $S=\{1,2,\ldots,1000000\}$. Prove that there exist numbers $t_1$, $t_2, \ldots, t_{100}$ in $S$ such that the sets \[ A_j=\{x+t_j\mid x\in A\},\qquad j=1,2,\ldots,100 \] are pairwise disjoint.
+
+Click for solution
+
+Let $D_1$, $D_2$, ..., $D_n$ be closed discs in the plane. (A closed disc is the region limited by a circle, taken jointly with this circle.) Suppose that every point in the plane is contained in at most $2003$ discs $D_i$. Prove that there exists a disc $D_k$ which intersects at most $7\cdot 2003 - 1 = 14020$ other discs $D_i$.
+
+Click for solution
+
+Let $n \geq 5$ be a given integer. Determine the greatest integer $k$ for which there exists a polygon with $n$ vertices (convex or not, with non-selfintersecting boundary) having $k$ internal right angles.
+
+Proposed by Juozas Juvencijus Macys, Lithuania
+Let $x_1,\ldots, x_n$ and $y_1,\ldots, y_n$ be real numbers. Let $A = (a_{ij})_{1\leq i,j\leq n}$ be the matrix with entries \[a_{ij} = \begin{cases}1,&\text{if }x_i + y_j\geq 0;\\0,&\text{if }x_i + y_j < 0.\end{cases}\]Suppose that $B$ is an $n\times n$ matrix with entries $0$, $1$ such that the sum of the elements in each row and each column of $B$ is equal to the corresponding sum for the matrix $A$. Prove that $A=B$.
+
+Click for solution
+
+Every point with integer coordinates in the plane is the center of a disk with radius $1/1000$.
+
+(1) Prove that there exists an equilateral triangle whose vertices lie in different discs.
+
+(2) Prove that every equilateral triangle with vertices in different discs has side-length greater than $96$.
+
+Radu Gologan, Romania
+Remark
+
+Click for solution
+
+Let $f(k)$ be the number of integers $n$ satisfying the following conditions:
+
+(i) $0\leq n < 10^k$ so $n$ has exactly $k$ digits (in decimal notation), with leading zeroes allowed;
+
+(ii) the digits of $n$ can be permuted in such a way that they yield an integer divisible by $11$.
+
+Prove that $f(2m) = 10f(2m-1)$ for every positive integer $m$.
+
+Proposed by Dirk Laurie, South Africa

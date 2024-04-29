@@ -1,0 +1,92 @@
+Geometry
+Let $B$ be a point on a circle $S_1$, and let $A$ be a point distinct from $B$ on the tangent at $B$ to $S_1$. Let $C$ be a point not on $S_1$ such that the line segment $AC$ meets $S_1$ at two distinct points. Let $S_2$ be the circle touching $AC$ at $C$ and touching $S_1$ at a point $D$ on the opposite side of $AC$ from $B$. Prove that the circumcentre of triangle $BCD$ lies on the circumcircle of triangle $ABC$.
+
+Click for solution
+
+Let $ABC$ be a triangle for which there exists an interior point $F$ such that $\angle AFB=\angle BFC=\angle CFA$. Let the lines $BF$ and $CF$ meet the sides $AC$ and $AB$ at $D$ and $E$ respectively. Prove that \[ AB+AC\geq4DE. \]
+
+Click for solution
+
+The circle $S$ has centre $O$, and $BC$ is a diameter of $S$. Let $A$ be a point of $S$ such that $\angle AOB<120{{}^\circ}$. Let $D$ be the midpoint of the arc $AB$ which does not contain $C$. The line through $O$ parallel to $DA$ meets the line $AC$ at $I$. The perpendicular bisector of $OA$ meets $S$ at $E$ and at $F$. Prove that $I$ is the incentre of the triangle $CEF.$
+
+Click for solution
+
+Circles $S_1$ and $S_2$ intersect at points $P$ and $Q$. Distinct points $A_1$ and $B_1$ (not at $P$ or $Q$) are selected on $S_1$. The lines $A_1P$ and $B_1P$ meet $S_2$ again at $A_2$ and $B_2$ respectively, and the lines $A_1B_1$ and $A_2B_2$ meet at $C$. Prove that, as $A_1$ and $B_1$ vary, the circumcentres of triangles $A_1A_2C$ all lie on one fixed circle.
+
+Click for solution
+
+For any set $S$ of five points in the plane, no three of which are collinear, let $M(S)$ and $m(S)$ denote the greatest and smallest areas, respectively, of triangles determined by three points from $S$. What is the minimum possible value of $M(S)/m(S)$ ?
+
+Click for solution
+
+Let $n\geq3$ be a positive integer. Let $C_1,C_2,C_3,\ldots,C_n$ be unit circles in the plane, with centres $O_1,O_2,O_3,\ldots,O_n$ respectively. If no line meets more than two of the circles, prove that \[ \sum\limits^{}_{1\leq i<j\leq n}{1\over O_iO_j}\leq{(n-1)\pi\over 4}. \]
+The incircle $ \Omega$ of the acute-angled triangle $ ABC$ is tangent to its side $ BC$ at a point $ K$. Let $ AD$ be an altitude of triangle $ ABC$, and let $ M$ be the midpoint of the segment $ AD$. If $ N$ is the common point of the circle $ \Omega$ and the line $ KM$ (distinct from $ K$), then prove that the incircle $ \Omega$ and the circumcircle of triangle $ BCN$ are tangent to each other at the point $ N$.
+
+Click for solution
+
+Let two circles $S_{1}$ and $S_{2}$ meet at the points $A$ and $B$. A line through $A$ meets $S_{1}$ again at $C$ and $S_{2}$ again at $D$. Let $M$, $N$, $K$ be three points on the line segments $CD$, $BC$, $BD$ respectively, with $MN$ parallel to $BD$ and $MK$ parallel to $BC$. Let $E$ and $F$ be points on those arcs $BC$ of $S_{1}$ and $BD$ of $S_{2}$ respectively that do not contain $A$. Given that $EN$ is perpendicular to $BC$ and $FK$ is perpendicular to $BD$ prove that $\angle EMF=90^{\circ}$.
+
+Click for solution
+
+Number Theory
+What is the smallest positive integer $t$ such that there exist integers $x_1,x_2,\ldots,x_t$ with \[x^3_1+x^3_2+\,\ldots\,+x^3_t=2002^{2002}\,?\]
+Let $n\geq2$ be a positive integer, with divisors $1=d_1<d_2<\,\ldots<d_k=n$. Prove that $d_1d_2+d_2d_3+\,\ldots\,+d_{k-1}d_k$ is always less than $n^2$, and determine when it is a divisor of $n^2$.
+
+Click for solution
+
+Let $p_1,p_2,\ldots,p_n$ be distinct primes greater than $3$. Show that $2^{p_1p_2\cdots p_n}+1$ has at least $4^n$ divisors.
+
+Click for solution
+
+Is there a positive integer $m$ such that the equation \[ {1\over a}+{1\over b}+{1\over c}+{1\over abc}={m\over a+b+c} \] has infinitely many solutions in positive integers $a,b,c$?
+
+Click for solution
+
+Let $m,n\geq2$ be positive integers, and let $a_1,a_2,\ldots ,a_n$ be integers, none of which is a multiple of $m^{n-1}$. Show that there exist integers $e_1,e_2,\ldots,e_n$, not all zero, with $\left|{\,e}_i\,\right|<m$ for all $i$, such that $e_1a_1+e_2a_2+\,\ldots\,+e_na_n$ is a multiple of $m^n$.
+Find all pairs of positive integers $m,n\geq3$ for which there exist infinitely many positive integers $a$ such that \[ \frac{a^m+a-1}{a^n+a^2-1} \] is itself an integer.
+
+Laurentiu Panaitopol, Romania
+Algebra
+Find all functions $f$ from the reals to the reals such that
+
+\[f\left(f(x)+y\right)=2x+f\left(f(y)-x\right)\]
+
+for all real $x,y$.
+
+Click for solution
+
+Let $a_1,a_2,\ldots$ be an infinite sequence of real numbers, for which there exists a real number $c$ with $0\leq a_i\leq c$ for all $i$, such that \[\left\lvert a_i-a_j \right\rvert\geq \frac{1}{i+j} \quad \text{for all }i,\ j \text{ with } i \neq j. \] Prove that $c\geq1$.
+
+Click for solution
+
+Let $P$ be a cubic polynomial given by $P(x)=ax^3+bx^2+cx+d$, where $a,b,c,d$ are integers and $a\ne0$. Suppose that $xP(x)=yP(y)$ for infinitely many pairs $x,y$ of integers with $x\ne y$. Prove that the equation $P(x)=0$ has an integer root.
+Find all functions $f$ from the reals to the reals such that \[ \left(f(x)+f(z)\right)\left(f(y)+f(t)\right)=f(xy-zt)+f(xt+yz) \] for all real $x,y,z,t$.
+Let $n$ be a positive integer that is not a perfect cube. Define real numbers $a,b,c$ by
+
+\[a=\root3\of n\kern1.5pt,\qquad b={1\over a-[a]}\kern1pt,\qquad c={1\over b-[b]}\kern1.5pt,\]
+
+where $[x]$ denotes the integer part of $x$. Prove that there are infinitely many such integers $n$ with the property that there exist integers $r,s,t$, not all zero, such that $ra+sb+tc=0$.
+Let $A$ be a non-empty set of positive integers. Suppose that there are positive integers $b_1,\ldots b_n$ and $c_1,\ldots,c_n$ such that
+
+- for each $i$ the set $b_iA+c_i=\left\{b_ia+c_i\colon a\in A\right\}$ is a subset of $A$, and
+
+- the sets $b_iA+c_i$ and $b_jA+c_j$ are disjoint whenever $i\ne j$
+
+Prove that \[{1\over b_1}+\,\ldots\,+{1\over b_n}\leq1.\]
+Combinatorics
+Let $n$ be a positive integer. Each point $(x,y)$ in the plane, where $x$ and $y$ are non-negative integers with $x+y<n$, is coloured red or blue, subject to the following condition: if a point $(x,y)$ is red, then so are all points $(x',y')$ with $x'\leq x$ and $y'\leq y$. Let $A$ be the number of ways to choose $n$ blue points with distinct $x$-coordinates, and let $B$ be the number of ways to choose $n$ blue points with distinct $y$-coordinates. Prove that $A=B$.
+
+Click for solution
+
+For $n$ an odd positive integer, the unit squares of an $n\times n$ chessboard are coloured alternately black and white, with the four corners coloured black. A it tromino is an $L$-shape formed by three connected unit squares. For which values of $n$ is it possible to cover all the black squares with non-overlapping trominos? When it is possible, what is the minimum number of trominos needed?
+Let $n$ be a positive integer. A sequence of $n$ positive integers (not necessarily distinct) is called full if it satisfies the following condition: for each positive integer $k\geq2$, if the number $k$ appears in the sequence then so does the number $k-1$, and moreover the first occurrence of $k-1$ comes before the last occurrence of $k$. For each $n$, how many full sequences are there ?
+Let $T$ be the set of ordered triples $(x,y,z)$, where $x,y,z$ are integers with $0\leq x,y,z\leq9$. Players $A$ and $B$ play the following guessing game. Player $A$ chooses a triple $(x,y,z)$ in $T$, and Player $B$ has to discover $A$'s triple in as few moves as possible. A move consists of the following: $B$ gives $A$ a triple $(a,b,c)$ in $T$, and $A$ replies by giving $B$ the number $\left|x+y-a-b\right |+\left|y+z-b-c\right|+\left|z+x-c-a\right|$. Find the minimum number of moves that $B$ needs to be sure of determining $A$'s triple.
+Let $r\geq2$ be a fixed positive integer, and let $F$ be an infinite family of sets, each of size $r$, no two of which are disjoint. Prove that there exists a set of size $r-1$ that meets each set in $F$.
+
+Click for solution
+
+Let $n$ be an even positive integer. Show that there is a permutation $\left(x_{1},x_{2},\ldots,x_{n}\right)$ of $\left(1,\,2,\,\ldots,n\right)$ such that for every $i\in\left\{1,\ 2,\ ...,\ n\right\}$, the number $x_{i+1}$ is one of the numbers $2x_{i}$, $2x_{i}-1$, $2x_{i}-n$, $2x_{i}-n-1$. Hereby, we use the cyclic subscript convention, so that $x_{n+1}$ means $x_{1}$.
+
+Click for solution
+
+Among a group of 120 people, some pairs are friends. A weak quartet is a set of four people containing exactly one pair of friends. What is the maximum possible number of weak quartets ?

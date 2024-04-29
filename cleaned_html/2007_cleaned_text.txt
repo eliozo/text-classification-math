@@ -1,0 +1,135 @@
+Algebra
+Real numbers $ a_{1}$, $ a_{2}$, $ \ldots$, $ a_{n}$ are given. For each $ i$, $ (1 \leq i \leq n )$, define
+\[ d_{i} = \max \{ a_{j}\mid 1 \leq j \leq i \} - \min \{ a_{j}\mid i \leq j \leq n \} \]
+and let $ d = \max \{d_{i}\mid 1 \leq i \leq n \}$.
+
+(a) Prove that, for any real numbers $ x_{1}\leq x_{2}\leq \cdots \leq x_{n}$,
+\[ \max \{ |x_{i} - a_{i}| \mid 1 \leq i \leq n \}\geq \frac {d}{2}. \quad \quad (*) \]
+(b) Show that there are real numbers $ x_{1}\leq x_{2}\leq \cdots \leq x_{n}$ such that the equality holds in (*).
+
+Author: Michael Albert, New Zealand
+Consider those functions $ f: \mathbb{N} \mapsto \mathbb{N}$ which satisfy the condition
+\[ f(m + n) \geq f(m) + f(f(n)) - 1 \]
+for all $ m,n \in \mathbb{N}.$ Find all possible values of $ f(2007).$
+
+Author: Nikolai Nikolov, Bulgaria
+Let $ n$ be a positive integer, and let $ x$ and $ y$ be a positive real number such that $ x^n + y^n = 1.$ Prove that
+\[ \left(\sum^n_{k = 1} \frac {1 + x^{2k}}{1 + x^{4k}} \right) \cdot \left( \sum^n_{k = 1} \frac {1 + y^{2k}}{1 + y^{4k}} \right) < \frac {1}{(1 - x) \cdot (1 - y)}. \]
+
+Author: Juhan Aru, Estonia
+Find all functions $ f: \mathbb{R}^{ + }\to\mathbb{R}^{ + }$ satisfying $ f\left(x + f\left(y\right)\right) = f\left(x + y\right) + f\left(y\right)$ for all pairs of positive reals $ x$ and $ y$. Here, $ \mathbb{R}^{ + }$ denotes the set of all positive reals.
+
+Proposed by Paisan Nakmahachalasint, Thailand
+Let $ c > 2,$ and let $ a(1), a(2), \ldots$ be a sequence of nonnegative real numbers such that
+\[ a(m + n) \leq 2 \cdot a(m) + 2 \cdot a(n) \text{ for all } m,n \geq 1, \]
+and $ a\left(2^k \right) \leq \frac {1}{(k + 1)^c} \text{ for all } k \geq 0.$ Prove that the sequence $ a(n)$ is bounded.
+
+Author: Vjekoslav Kovač, Croatia
+Let $ a_1, a_2, \ldots, a_{100}$ be nonnegative real numbers such that $ a^2_1 + a^2_2 + \ldots + a^2_{100} = 1.$ Prove that
+\[ a^2_1 \cdot a_2 + a^2_2 \cdot a_3 + \ldots + a^2_{100} \cdot a_1 < \frac {12}{25}. \]
+Author: Marcin Kuzma, Poland
+Let $ n$ be a positive integer. Consider
+\[ S = \left\{ (x,y,z) \mid x,y,z \in \{ 0, 1, \ldots, n\}, x + y + z > 0 \right \} \]
+as a set of $ (n + 1)^{3} - 1$ points in the three-dimensional space. Determine the smallest possible number of planes, the union of which contains $ S$ but does not include $ (0,0,0)$.
+
+Author: Gerhard Wöginger, Netherlands 
+Combinatorics
+Let $ n > 1$ be an integer. Find all sequences $ a_1, a_2, \ldots a_{n^2 + n}$ satisfying the following conditions:
+\[ \text{ (a) } a_i \in \left\{0,1\right\} \text{ for all } 1 \leq i \leq n^2 + n; \]
+
+\[ \text{ (b) } a_{i + 1} + a_{i + 2} + \ldots + a_{i + n} < a_{i + n + 1} + a_{i + n + 2} + \ldots + a_{i + 2n} \text{ for all } 0 \leq i \leq n^2 - n. \]
+Author: Dusan Dukic, Serbia
+A rectangle $ D$ is partitioned in several ($ \ge2$) rectangles with sides parallel to those of $ D$. Given that any line parallel to one of the sides of $ D$, and having common points with the interior of $ D$, also has common interior points with the interior of at least one rectangle of the partition; prove that there is at least one rectangle of the partition having no common points with $ D$'s boundary.
+
+Author: Kei Irie, Japan
+Find all positive integers $ n$ for which the numbers in the set $ S = \{1,2, \ldots,n \}$ can be colored red and blue, with the following condition being satisfied: The set $ S \times S \times S$ contains exactly $ 2007$ ordered triples $ \left(x, y, z\right)$ such that:
+
+(i) the numbers $ x$, $ y$, $ z$ are of the same color,
+and
+(ii) the number $ x + y + z$ is divisible by $ n$.
+
+Author: Gerhard Wöginger, Netherlands
+Let $ A_0 = (a_1,\dots,a_n)$ be a finite sequence of real numbers. For each $ k\geq 0$, from the sequence $ A_k = (x_1,\dots,x_k)$ we construct a new sequence $ A_{k + 1}$ in the following way.
+1. We choose a partition $ \{1,\dots,n\} = I\cup J$, where $ I$ and $ J$ are two disjoint sets, such that the expression
+\[ \left|\sum_{i\in I}x_i - \sum_{j\in J}x_j\right| \]
+attains the smallest value. (We allow $ I$ or $ J$ to be empty; in this case the corresponding sum is 0.) If there are several such partitions, one is chosen arbitrarily.
+2. We set $ A_{k + 1} = (y_1,\dots,y_n)$ where $ y_i = x_i + 1$ if $ i\in I$, and $ y_i = x_i - 1$ if $ i\in J$.
+Prove that for some $ k$, the sequence $ A_k$ contains an element $ x$ such that $ |x|\geq\frac n2$.
+
+Author: Omid Hatami, Iran
+In the Cartesian coordinate plane define the strips $ S_n = \{(x,y)|n\le x < n + 1\}$, $ n\in\mathbb{Z}$ and color each strip black or white. Prove that any rectangle which is not a square can be placed in the plane so that its vertices have the same color.
+
+IMO Shortlist 2007 Problem C5 as it appears in the official booklet:
+In the Cartesian coordinate plane define the strips $ S_n = \{(x,y)|n\le x < n + 1\}$ for every integer $ n.$ Assume each strip $ S_n$ is colored either red or blue, and let $ a$ and $ b$ be two distinct positive integers. Prove that there exists a rectangle with side length $ a$ and $ b$ such that its vertices have the same color.
+(Edited by Orlando Döhring)
+
+Author: Radu Gologan and Dan Schwarz, Romania
+In a mathematical competition some competitors are friends. Friendship is always mutual. Call a group of competitors a clique if each two of them are friends. (In particular, any group of fewer than two competitiors is a clique.) The number of members of a clique is called its size.
+
+Given that, in this competition, the largest size of a clique is even, prove that the competitors can be arranged into two rooms such that the largest size of a clique contained in one room is the same as the largest size of a clique contained in the other room.
+
+Author: Vasily Astakhov, Russia
+Let $ \alpha < \frac {3 - \sqrt {5}}{2}$ be a positive real number. Prove that there exist positive integers $ n$ and $ p > \alpha \cdot 2^n$ for which one can select $ 2 \cdot p$ pairwise distinct subsets $ S_1, \ldots, S_p, T_1, \ldots, T_p$ of the set $ \{1,2, \ldots, n\}$ such that $ S_i \cap T_j \neq \emptyset$ for all $ 1 \leq i,j \leq p$
+
+Author: Gerhard Wöginger, Austria
+Given is a convex polygon $ P$ with $ n$ vertices. Triangle whose vertices lie on vertices of $ P$ is called good if all its sides are unit length. Prove that there are at most $ \frac {2n}{3}$ good triangles.
+
+Author: Vyacheslav Yasinskiy, Ukraine
+Geometry
+In triangle $ ABC$ the bisector of angle $ BCA$ intersects the circumcircle again at $ R$, the perpendicular bisector of $ BC$ at $ P$, and the perpendicular bisector of $ AC$ at $ Q$. The midpoint of $ BC$ is $ K$ and the midpoint of $ AC$ is $ L$. Prove that the triangles $ RPK$ and $ RQL$ have the same area.
+
+Author: Marek Pechal, Czech Republic
+Denote by $ M$ midpoint of side $ BC$ in an isosceles triangle $ \triangle ABC$ with $ AC = AB$. Take a point $ X$ on a smaller arc $ \overarc{MA}$ of circumcircle of triangle $ \triangle ABM$. Denote by $ T$ point inside of angle $ BMA$ such that $ \angle TMX = 90$ and $ TX = BX$.
+
+Prove that $ \angle MTB - \angle CTM$ does not depend on choice of $ X$.
+
+Author: Farzan Barekat, Canada
+The diagonals of a trapezoid $ ABCD$ intersect at point $ P$. Point $ Q$ lies between the parallel lines $ BC$ and $ AD$ such that $ \angle AQD = \angle CQB$, and line $ CD$ separates points $ P$ and $ Q$. Prove that $ \angle BQP = \angle DAQ$.
+
+Author: Vyacheslav Yasinskiy, Ukraine
+Consider five points $ A$, $ B$, $ C$, $ D$ and $ E$ such that $ ABCD$ is a parallelogram and $ BCED$ is a cyclic quadrilateral. Let $ \ell$ be a line passing through $ A$. Suppose that $ \ell$ intersects the interior of the segment $ DC$ at $ F$ and intersects line $ BC$ at $ G$. Suppose also that $ EF = EG = EC$. Prove that $ \ell$ is the bisector of angle $ DAB$.
+
+Author: Charles Leytem, Luxembourg
+Let $ ABC$ be a fixed triangle, and let $ A_1$, $ B_1$, $ C_1$ be the midpoints of sides $ BC$, $ CA$, $ AB$, respectively. Let $ P$ be a variable point on the circumcircle. Let lines $ PA_1$, $ PB_1$, $ PC_1$ meet the circumcircle again at $ A'$, $ B'$, $ C'$, respectively. Assume that the points $ A$, $ B$, $ C$, $ A'$, $ B'$, $ C'$ are distinct, and lines $ AA'$, $ BB'$, $ CC'$ form a triangle. Prove that the area of this triangle does not depend on $ P$.
+
+Author: Christopher Bradley, United Kingdom 
+Determine the smallest positive real number $ k$ with the following property. Let $ ABCD$ be a convex quadrilateral, and let points $ A_1$, $ B_1$, $ C_1$, and $ D_1$ lie on sides $ AB$, $ BC$, $ CD$, and $ DA$, respectively. Consider the areas of triangles $ AA_1D_1$, $ BB_1A_1$, $ CC_1B_1$ and $ DD_1C_1$; let $ S$ be the sum of the two smallest ones, and let $ S_1$ be the area of quadrilateral $ A_1B_1C_1D_1$. Then we always have $ kS_1\ge S$.
+
+Author: Zuming Feng and Oleg Golberg, USA
+Given an acute triangle $ ABC$ with $ \angle B > \angle C$. Point $ I$ is the incenter, and $ R$ the circumradius. Point $ D$ is the foot of the altitude from vertex $ A$. Point $ K$ lies on line $ AD$ such that $ AK = 2R$, and $ D$ separates $ A$ and $ K$. Lines $ DI$ and $ KI$ meet sides $ AC$ and $ BC$ at $ E,F$ respectively. Let $ IE = IF$.
+
+Prove that $ \angle B\leq 3\angle C$.
+
+Author: Davoud Vakili, Iran
+
+Click for solution
+
+Point $ P$ lies on side $ AB$ of a convex quadrilateral $ ABCD$. Let $ \omega$ be the incircle of triangle $ CPD$, and let $ I$ be its incenter. Suppose that $ \omega$ is tangent to the incircles of triangles $ APD$ and $ BPC$ at points $ K$ and $ L$, respectively. Let lines $ AC$ and $ BD$ meet at $ E$, and let lines $ AK$ and $ BL$ meet at $ F$. Prove that points $ E$, $ I$, and $ F$ are collinear.
+
+Author: Waldemar Pompe, Poland
+Number Theory
+Find all pairs of natural numbers $ (a, b)$ such that $ 7^a - 3^b$ divides $ a^4 + b^2$.
+
+Author: Stephan Wagner, Austria
+Let $b,n > 1$ be integers. Suppose that for each $k > 1$ there exists an integer $a_k$ such that $b - a^n_k$ is divisible by $k$. Prove that $b = A^n$ for some integer $A$.
+
+Author: Dan Brown, Canada
+Let $ X$ be a set of 10,000 integers, none of them is divisible by 47. Prove that there exists a 2007-element subset $ Y$ of $ X$ such that $ a - b + c - d + e$ is not divisible by 47 for any $ a,b,c,d,e \in Y.$
+
+Author: Gerhard Wöginger, Netherlands
+For every integer $ k \geq 2,$ prove that $ 2^{3k}$ divides the number
+\[ \binom{2^{k + 1}}{2^{k}} - \binom{2^{k}}{2^{k - 1}} \]
+but $ 2^{3k + 1}$ does not.
+
+Author: Waldemar Pompe, Poland
+Find all surjective functions $ f: \mathbb{N} \to \mathbb{N}$ such that for every $ m,n \in \mathbb{N}$ and every prime $ p,$ the number $ f(m + n)$ is divisible by $ p$ if and only if $ f(m) + f(n)$ is divisible by $ p$.
+
+Author: Mohsen Jamaali and Nima Ahmadi Pour Anari, Iran
+Let $ k$ be a positive integer. Prove that the number $ (4 \cdot k^2 - 1)^2$ has a positive divisor of the form $ 8kn - 1$ if and only if $ k$ is even.
+
+Actual IMO 2007 Problem, posed as question 5 in the contest, which was used as a lemma in the official solutions for problem N6 as shown above.
+
+Author: Kevin Buzzard and Edward Crane, United Kingdom 
+For a prime $ p$ and a given integer $ n$ let $ \nu_p(n)$ denote the exponent of $ p$ in the prime factorisation of $ n!$. Given $ d \in \mathbb{N}$ and $ \{p_1,p_2,\ldots,p_k\}$ a set of $ k$ primes, show that there are infinitely many positive integers $ n$ such that $ d\mid \nu_{p_i}(n)$ for all $ 1 \leq i \leq k$.
+
+Author: Tejaswi Navilarekkallu, India

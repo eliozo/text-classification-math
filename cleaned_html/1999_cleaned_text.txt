@@ -1,0 +1,105 @@
+Geometry
+Let ABC be a triangle and $M$ be an interior point. Prove that
+
+\[ \min\{MA,MB,MC\}+MA+MB+MC<AB+AC+BC.\]
+
+Click for solution
+
+A circle is called a separator for a set of five points in a plane if it passes through three of these points, it contains a fourth point inside and the fifth point is outside the circle. Prove that every set of five points such that no three are collinear and no four are concyclic has exactly four separators.
+
+Click for solution
+
+A set $ S$ of points from the space will be called completely symmetric if it has at least three elements and fulfills the condition that for every two distinct points $ A$ and $ B$ from $ S$, the perpendicular bisector plane of the segment $ AB$ is a plane of symmetry for $ S$. Prove that if a completely symmetric set is finite, then it consists of the vertices of either a regular polygon, or a regular tetrahedron or a regular octahedron.
+For a triangle $T = ABC$ we take the point $X$ on the side $(AB)$ such that $AX/AB=4/5$, the point $Y$ on the segment $(CX)$ such that $CY = 2YX$ and, if possible, the point $Z$ on the ray ($CA$ such that $\widehat{CXZ} = 180 - \widehat{ABC}$. We denote by $\Sigma$ the set of all triangles $T$ for which
+$\widehat{XYZ} = 45$. Prove that all triangles from $\Sigma$ are similar and find the measure of their smallest angle.
+Let $ABC$ be a triangle, $\Omega$ its incircle and $\Omega_{a}, \Omega_{b}, \Omega_{c}$ three circles orthogonal to $\Omega$ passing through $(B,C),(A,C)$ and $(A,B)$ respectively. The circles $\Omega_{a}$ and $\Omega_{b}$ meet again in $C'$; in the same way we obtain the points $B'$ and $A'$. Prove that the radius of the circumcircle of $A'B'C'$ is half the radius of $\Omega$.
+
+Click for solution
+
+Two circles $\Omega_{1}$ and $\Omega_{2}$ touch internally the circle $\Omega$ in M and N and the center of $\Omega_{2}$ is on $\Omega_{1}$. The common chord of the circles $\Omega_{1}$ and $\Omega_{2}$ intersects $\Omega$ in $A$ and $B$. $MA$ and $MB$ intersects $\Omega_{1}$ in $C$ and $D$. Prove that $\Omega_{2}$ is tangent to $CD$.
+
+Click for solution
+
+The point $M$ is inside the convex quadrilateral $ABCD$, such that
+
+\[ MA = MC, \hspace{0,2cm} \widehat{AMB} = \widehat{MAD} + \widehat{MCD} \quad \textnormal{and} \quad \widehat{CMD} = \widehat{MCB} + \widehat{MAB}. \]
+
+Prove that $AB \cdot CM = BC \cdot MD$ and $BM \cdot AD = MA \cdot CD.$
+
+Click for solution
+
+Given a triangle $ABC$. The points $A$, $B$, $C$ divide the circumcircle $\Omega$ of the triangle $ABC$ into three arcs $BC$, $CA$, $AB$. Let $X$ be a variable point on the arc $AB$, and let $O_{1}$ and $O_{2}$ be the incenters of the triangles $CAX$ and $CBX$. Prove that the circumcircle of the triangle $XO_{1}O_{2}$ intersects the circle $\Omega$ in a fixed point.
+
+Click for solution
+
+Number Theory
+Find all the pairs of positive integers $(x,p)$ such that p is a prime, $x \leq 2p$ and $x^{p-1}$ is a divisor of $ (p-1)^{x}+1$.
+
+Click for solution
+
+Prove that every positive rational number can be represented in the form $\dfrac{a^{3}+b^{3}}{c^{3}+d^{3}}$ where a,b,c,d are positive integers.
+Prove that there exists two strictly increasing sequences $(a_{n})$ and $(b_{n})$ such that $a_{n}(a_{n}+1)$ divides $b^{2}_{n}+1$ for every natural n.
+
+Click for solution
+
+Denote by S the set of all primes such the decimal representation of $\frac{1}{p}$ has the fundamental period divisible by 3. For every $p \in S$ such that $\frac{1}{p}$ has the fundamental period $3r$ one may write
+
+\[\frac{1}{p}=0,a_{1}a_{2}\ldots a_{3r}a_{1}a_{2} \ldots a_{3r} \ldots , \]
+
+where $r=r(p)$; for every $p \in S$ and every integer $k \geq 1$ define $f(k,p)$ by \[ f(k,p)= a_{k}+a_{k+r(p)}+a_{k+2.r(p)}\]
+
+a) Prove that $S$ is infinite.
+b) Find the highest value of $f(k,p)$ for $k \geq 1$ and $p \in S$
+Let $n,k$ be positive integers such that n is not divisible by 3 and $k \geq n$. Prove that there exists a positive integer $m$ which is divisible by $n$ and the sum of its digits in decimal representation is $k$.
+Prove that for every real number $M$ there exists an infinite arithmetic progression such that:
+
+- each term is a positive integer and the common difference is not divisible by 10
+- the sum of the digits of each term (in decimal representation) exceeds $M$.
+Algebra
+Let $n \geq 2$ be a fixed integer. Find the least constant $C$ such the inequality
+
+\[\sum_{i<j} x_{i}x_{j} \left(x^{2}_{i}+x^{2}_{j} \right) \leq C \left(\sum_{i}x_{i} \right)^4\]
+
+holds for any $x_{1}, \ldots ,x_{n} \geq 0$ (the sum on the left consists of $\binom{n}{2}$ summands). For this constant $C$, characterize the instances of equality.
+The numbers from 1 to $n^2$ are randomly arranged in the cells of a $n \times n$ square ($n \geq 2$). For any pair of numbers situated on the same row or on the same column the ratio of the greater number to the smaller number is calculated. Let us call the characteristic of the arrangement the smallest of these $n^2\left(n-1\right)$ fractions. What is the highest possible value of the characteristic ?
+A game is played by $n$ girls ($n \geq 2$), everybody having a ball. Each of the $\binom{n}{2}$ pairs of players, is an arbitrary order, exchange the balls they have at the moment. The game is called nice nice if at the end nobody has her own ball and it is called tiresome if at the end everybody has her initial ball. Determine the values of $n$ for which there exists a nice game and those for which there exists a tiresome game.
+Prove that the set of positive integers cannot be partitioned into three nonempty subsets such that, for any two integers $x,y$ taken from two different subsets, the number $x^2-xy+y^2$ belongs to the third subset.
+Find all the functions $f: \mathbb{R} \to\mathbb{R}$ such that
+\[f(x-f(y))=f(f(y))+xf(y)+f(x)-1\]for all $x,y \in \mathbb{R} $.
+For $n \geq 3$ and $a_{1} \leq a_{2} \leq \ldots \leq a_{n}$ given real numbers we have the following instructions:
+
+- place out the numbers in some order in a ring;
+- delete one of the numbers from the ring;
+- if just two numbers are remaining in the ring: let $S$ be the sum of these two numbers. Otherwise, if there are more the two numbers in the ring, replace
+
+Afterwards start again with the step (2). Show that the largest sum $S$ which can result in this way is given by the formula
+
+\[S_{max}= \sum^n_{k=2} \begin{pmatrix} n -2 \\ [\frac{k}{2}] - 1\end{pmatrix}a_{k}.\]
+Combinatorics
+Let $n \geq 1$ be an integer. A path from $(0,0)$ to $(n,n)$ in the $xy$ plane is a chain of consecutive unit moves either to the right (move denoted by $E$) or upwards (move denoted by $N$), all the moves being made inside the half-plane $x \geq y$. A step in a path is the occurence of two consecutive moves of the form $EN$. Show that the number of paths from $(0,0)$ to $(n,n)$ that contain exactly $s$ steps $(n \geq s \geq 1)$ is
+
+\[\frac{1}{s} \binom{n-1}{s-1} \binom{n}{s-1}.\]
+If a $5 \times n$ rectangle can be tiled using $n$ pieces like those shown in the diagram, prove that $n$ is even. Show that there are more than $2 \cdot 3^{k-1}$ ways to file a fixed $5 \times 2k$ rectangle $(k \geq 3)$ with $2k$ pieces. (symmetric constructions are supposed to be different.)
+A biologist watches a chameleon. The chameleon catches flies and rests after each catch. The biologist notices that:
+
+    the first fly is caught after a resting period of one minute;
+    the resting period before catching the $2m^\text{th}$ fly is the same as the resting period before catching the $m^\text{th}$ fly and one minute shorter than the resting period before catching the $(2m+1)^\text{th}$ fly;
+    when the chameleon stops resting, he catches a fly instantly.
+
+
+    How many flies were caught by the chameleon before his first resting period of $9$ minutes in a row?
+    After how many minutes will the chameleon catch his $98^\text{th}$ fly?
+    How many flies were caught by the chameleon after 1999 minutes have passed?
+
+
+Let $A$ be a set of $N$ residues $\pmod{N^{2}}$. Prove that there exists a set $B$ of of $N$ residues $\pmod{N^{2}}$ such that $A + B = \{a+b|a \in A, b \in B\}$ contains at least half of all the residues $\pmod{N^{2}}$.
+Let $n$ be an even positive integer. We say that two different cells of a $n \times n$ board are neighboring if they have a common side. Find the minimal number of cells on the $n \times n$ board that must be marked so that any cell (marked or not marked) has a marked neighboring cell.
+Suppose that every integer has been given one of the colours red, blue, green or yellow. Let $x$ and $y$ be odd integers so that $|x| \neq |y|$. Show that there are two integers of the same colour whose difference has one of the following values: $x,y,x+y$ or $x-y$.
+
+Click for solution
+
+Let $p >3$ be a prime number. For each nonempty subset $T$ of $\{0,1,2,3, \ldots , p-1\}$, let $E(T)$ be the set of all $(p-1)$-tuples $(x_1, \ldots ,x_{p-1} )$, where each $x_i \in T$ and $x_1+2x_2+ \ldots + (p-1)x_{p-1}$ is divisible by $p$ and let $|E(T)|$ denote the number of elements in $E(T)$. Prove that
+
+\[|E(\{0,1,3\})| \geq |E(\{0,1,2\})|\]
+
+with equality if and only if $p = 5$.
